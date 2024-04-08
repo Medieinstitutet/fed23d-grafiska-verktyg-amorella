@@ -73,6 +73,7 @@
 ## Cookies
  > Hover: 
  <br>**Buttons:** Same as declared above.
+ <br>**Close icon:** Yellow. 
  <br>**Links:** Underline with hover color. Text black as default.
 
 > Click: 
