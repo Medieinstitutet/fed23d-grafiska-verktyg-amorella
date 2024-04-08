@@ -3,7 +3,7 @@
 ## Colors
 
 - Every color has HEX, RGB, HSL values.
-- Are accessible as color styles in figma.
+- Are accessible as color styles in Figma.
 
 ### Types of colors
 
@@ -16,7 +16,7 @@
 ## Typography
 
 - Follows the golden rule 1,33 quota.
-- Are accessible as text styles in figma.
+- Are accessible as text styles in Figma.
 
 ### Headings
 
@@ -50,7 +50,7 @@
 
 ### Button - view this flavour
 
-- Hover: background yellow, hover color on text.
+- Hover: background yellow, hover color on text and border.
 
 ### Images - pistachio / blueberry
 
@@ -59,6 +59,16 @@
 ### Images - bubblegum
 
 - Hover: zoom on image, hover color on heading, New text scale up.
+
+### Cookies
+- Buttons:
+   - Hover: background yellow, hover color on text and border. 
+- Links: 
+   - Hover: underline with hover color. 
+- The white background has 85% opacity as default. 
+- The cookie bar is sticky to the bottom (viewport height). 
+- Click on close or any button: 
+   - Soft but quick closing effect. 
 
 ## Grids
 
