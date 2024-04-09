@@ -83,6 +83,12 @@
 - The white background has 85% opacity as default. 
 - The cookie bar is sticky to the bottom (viewport height). 
 
+## Animation 
+> - Make the **"NEW!"** flash bigger and smaller. Smooth, not too quick - not too slow. 
+<br>
+> - **Flavour icon (berry, bubble, pistachio):** Smooth short animation effect.
+> - Make the underline on links come from the middle and out to the edges  <- ->
+
 
 ## Grids
 
