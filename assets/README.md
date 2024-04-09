@@ -3,20 +3,20 @@
 ## Colors
 
 - Every color has HEX, RGB, HSL values.
-- Are accessible as color styles in figma.
+- Are accessible as color styles in Figma.
 
 ### Types of colors
 
-- Primary
-- Secondary
-- Tertiary
-- Yellow
-- Hover
+- Primary #EB5B98
+- Secondary #E395AB
+- Tertiary #FAD3D9
+- Yellow #FFEDBE
+- Hover color #B36B86
 
 ## Typography
 
 - Follows the golden rule 1,33 quota.
-- Are accessible as text styles in figma.
+- Are accessible as text styles in Figma.
 
 ### Headings
 
@@ -33,32 +33,56 @@
 
 ### Icons
 
-- Hover: yellow background.
-- Click: hamburger icon should change to close icon and show dropdown.  
+> Hover:
+<br>**Background:** Yellow. 
+
+> Click: 
+<br>**Hamburger icon:** Changes to Close icon and shows dropdown menu.
+ 
 
 ### Subscribe input
 
-- Hover:    
+> Hover:
+<br>**Input border:** Yellow.
+<br>**Button background:** Yellow.
 
-* Input: yellow border.
-* Button: background yellow w hover colored text.
+> Focus: 
+<br>**Input background:** Hover color.
+<br>**Input typing line:** Yellow.
+<br>**Button background:** Yellow.
 
-- Focus: 
+### Buttons:
 
-* Input: text line yellow, hover color for background.
-* Button: background yellow w hover colored text.
+> Hover:
+<br>**Background:** Yellow.
+<br>**Text & Border:** Hover color.
 
-### Button - view this flavour
+### Images - blueberry / bubblegum / pistachio
 
-- Hover: background yellow, hover color on text.
+> Hover: 
+<br>**Image:** Zooming in. 
+<br>**Heading/Name:** Yellow.
+<br>**Flavour icon (berry, bubble, pistachio):** Smooth short animation effect.
 
-### Images - pistachio / blueberry
+### Images - bubblegum mobile mode
 
-- Hover: zoom on image, hover color on heading.
+> Hover/Click: 
+<br>**Image:** Zooming in.
+<br>**New-text:** Scale up.
 
-### Images - bubblegum
+## Cookies
+ > Hover: 
+ <br>**Buttons:** Same as declared above.
+ <br>**Close icon:** Yellow. 
+ <br>**Links:** Underline with hover color. Text black as default.
 
-- Hover: zoom on image, hover color on heading, New text scale up.
+> Click: 
+ <br>**Close icon or any button:** Soft but quick closing effect. 
+ 
+ <br> Other usfull information about cookies: 
+- The white background has 85% opacity as default. 
+- The cookie bar is sticky to the bottom (viewport height). 
+
 
 ## Grids
 
