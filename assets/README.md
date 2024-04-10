@@ -41,6 +41,7 @@
  
 
 ### Subscribe input
+*Subscribe button: Disabled if no e-post in the input field.*
 
 > Hover:
 <br>**Input border:** Yellow.
