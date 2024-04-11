@@ -1,0 +1,10 @@
+/* Import modules when they are used */
+@import "./scss_modules/_color.scss";
+@import "./scss_modules/_buttons.scss";
+@import "./scss_modules/_images.scss";
+
+/* Skriv alla breaking points för screen width */
+/* mobile */
+/* tablet */
+/* desktop (hover) */
+@import "./scss_modules/_hover.scss";

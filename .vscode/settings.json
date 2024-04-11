@@ -9,11 +9,9 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.format.enable": true,
-  "eslint.rules.customizations": [
- 
-  ],
+  "eslint.rules.customizations": [],
   "javascript.preferences.quoteStyle": "double",
   "typescript.preferences.quoteStyle": "double"
 }
