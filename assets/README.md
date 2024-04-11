@@ -26,7 +26,7 @@
 
 ### Body
 
-- Body text is in Fira Sans, regular 400, medium 500 and bold 700. 
+- Body text is in Fira Sans, regular 400, medium 500 and bold 700.
 - Four different sizes XL, L, M, S.
 
 ## Interactive Elements
@@ -34,67 +34,67 @@
 ### Icons
 
 > Hover:
-<br>**Background:** Yellow. 
+> <br>**Background:** Yellow.
 
-> Click: 
-<br>**Hamburger icon:** Changes to Close icon and shows dropdown menu.
- 
+> Click:
+> <br>**Hamburger icon:** Changes to Close icon and shows dropdown menu.
 
 ### Subscribe input
-*Subscribe button: Disabled if no e-post in the input field.*
+
+_Subscribe button: Disabled if no e-post in the input field._
 
 > Hover:
-<br>**Input border:** Yellow.
-<br>**Button background:** Yellow.
+> <br>**Input border:** Yellow.
+> <br>**Button background:** Yellow.
 
-> Focus: 
-<br>**Input background:** Hover color.
-<br>**Input typing line:** Yellow.
-<br>**Button background:** Yellow.
+> Focus:
+> <br>**Input background:** Hover color.
+> <br>**Input typing line:** Yellow.
+> <br>**Button background:** Yellow.
 
 ### Buttons:
 
 > Hover:
-<br>**Background:** Yellow.
-<br>**Text & Border:** Hover color.
+> <br>**Background:** Yellow.
+> <br>**Text & Border:** Hover color.
 
 ### Images - blueberry / bubblegum / pistachio
 
-> Hover: 
-<br>**Image:** Zooming in. 
-<br>**Heading/Name:** Yellow.
-<br>**Flavour icon (berry, bubble, pistachio):** Smooth short animation effect.
+> Hover:
+> <br>**Image:** Zooming in.
+> <br>**Heading/Name:** Yellow.
+> <br>**Flavour icon (berry, bubble, pistachio):** Smooth short animation effect.
 
 ### Images - bubblegum mobile mode
 
-> Hover/Click: 
-<br>**Image:** Zooming in.
-<br>**New-text:** Scale up.
+> Hover/Click:
+> <br>**Image:** Zooming in.
+> <br>**New-text:** Scale up.
 
 ## Cookies
- > Hover: 
- <br>**Buttons:** Same as declared above.
- <br>**Close icon:** Yellow. 
- <br>**Links:** Underline with hover color. Text black as default.
 
-> Click: 
- <br>**Close icon or any button:** Soft but quick closing effect. 
- 
- <br> Other usfull information about cookies: 
-- The white background has 85% opacity as default. 
-- The cookie bar is sticky to the bottom (viewport height). 
+> Hover:
+> <br>**Buttons:** Same as declared above.
+> <br>**Close icon:** Yellow.
+> <br>**Links:** Underline with hover color. Text black as default.
 
-## Animation 
-> - Make the **"NEW!"** flash bigger and smaller. Smooth, not too quick - not too slow. 
-<br>
+> Click:
+> <br>**Close icon or any button:** Soft but quick closing effect.
+
+<br> Other usfull information about cookies:
+
+- The white background has 85% opacity as default.
+- The cookie bar is sticky to the bottom (viewport height).
+
+## Animation
+
+> - Make the **"NEW!"** flash bigger and smaller. Smooth, not too quick - not too slow.
+>   <br>
 > - **Flavour icon (berry, bubble, pistachio):** Smooth short animation effect.
-> - Make the underline on links come from the middle and out to the edges  <- ->
-
+> - Make the underline on links come from the middle and out to the edges <- ->
 
 ## Grids
 
 - Mobile: 4 columns
 - Tablet: 8 columns
 - Desktop: 12 columns
-
-
