@@ -14,7 +14,7 @@ body {
   .homeSection {
     position: absolute;
     .homeHeader,
-    .newHeader {
+    .newIcecreamArticleHeader {
       line-height: 40px;
     }
 
@@ -37,6 +37,7 @@ body {
       text-align: center;
       transform: translateX(-50%);
       padding-top: 44px;
+      margin-bottom: 50px;
     }
 
     .newIcecreamArticle {
@@ -49,9 +50,14 @@ body {
       background-color: #fff;
       border-radius: 20px;
       border: 4px solid $primaryColor;
+      margin: auto;
 
-      .newHeader {
-        position: absolute;
+      .newIcecreamArticleHeader {
+        position: relative;
+        font-size: 3.5rem;
+        margin: 0;
+        transform: rotate(16.79deg);
+        right: 0;
       }
 
       .newIceCreamImg {
