@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  letter-spacing: 5%;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 40;
+}
+
+h1 {
+  font-size: xx-large;
+  line-height: 100;
+}
+h2 {
+  font-size: x-large;
+  line-height: 80;
+}
+h3 {
+  font-size: large;
+  line-height: 60;
+}
+h4 {
+  font-size: medium;
+}
+h5 {
+  font-size: small;
+}
+h6 {
+  font-size: x-small;
+}
+/* Regular text size below */
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+/* Four different sizes used in design: XL, L, M, S. Change manually when needed. */
+/* Add class to elements when a change of thickness is requiered */
+.textWeightMedium {
+  font-weight: 500;
+}
+.textWeightBold {
+  font-weight: 700;
+}
