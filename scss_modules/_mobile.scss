@@ -18,15 +18,6 @@ body {
       line-height: 40px;
     }
 
-    .homeStarBg,
-    .homeHeader {
-      // position: relative;
-      // transform: rotate(21.07deg);
-      // z-index: -1;
-
-      // align-items: center;
-    }
-
     .homeStarBg {
       position: absolute;
       transform: translateX(-50%) rotate(21.07deg);
@@ -45,9 +36,55 @@ body {
       width: 340px;
       text-align: center;
       transform: translateX(-50%);
-      // padding-top: 95px;
+      padding-top: 44px;
+    }
 
-      // position: relative;
+    .newIcecreamArticle {
+      width: 300px;
+      height: 461px;
+      border-radius: 20px;
+      // position: absolute;
+      // width: 300px;
+      // height: 153px;
+      background-color: #fff;
+      border-radius: 20px;
+      border: 4px solid $primaryColor;
+
+      .newHeader {
+        position: absolute;
+      }
+
+      .newIceCreamImg {
+        width: 100%;
+        height: 302px;
+        border-radius: 16px 16px 0 0;
+        border-bottom: none;
+      }
+
+      .newIcecreamArticleTxt {
+        margin: 0;
+        color: $hoverColor;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 202px;
+        margin-left: 50px;
+        margin-top: 20px;
+      }
+
+      .newIcecreamBtn {
+        background-color: $primaryColor;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        width: 200px;
+        height: 40px;
+        margin-left: 50px;
+        padding: 0;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        margin-top: 19px;
+      }
     }
   }
 }
