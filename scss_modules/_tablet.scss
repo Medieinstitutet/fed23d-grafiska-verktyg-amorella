@@ -2,7 +2,7 @@
 @import "./_font.scss";
 
 body {
-  grid-template-columns: 8;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
   gap: 25px;
 }
 
