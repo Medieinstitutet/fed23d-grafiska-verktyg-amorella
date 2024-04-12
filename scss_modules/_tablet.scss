@@ -1,0 +1,9 @@
+@import "./_color.scss";
+@import "./_buttons.scss";
+@import "./_images.scss";
+@import "./_font.scss";
+
+body {
+  grid-template-columns: 8;
+  gap: 25px;
+}
