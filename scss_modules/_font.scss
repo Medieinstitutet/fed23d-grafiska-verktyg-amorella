@@ -50,3 +50,11 @@ p {
 .textWeightBold {
   font-weight: 700;
 }
+a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
