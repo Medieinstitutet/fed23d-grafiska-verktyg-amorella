@@ -12,8 +12,7 @@ body {
   background-color: $tertiaryColor;
 
   main {
-    grid-column: 1 / span 3;
-    display: grid;
+    grid-column: 1 / span 4;
     .homeSection {
       .homeHeader,
       .newIcecreamArticleHeader {
@@ -27,7 +26,7 @@ body {
         left: 50%;
         height: 270.45px;
         width: 270.45px;
-        top: 34px;
+        top: 90px;
       }
 
       .homeHeader {
@@ -39,7 +38,7 @@ body {
         width: 340px;
         text-align: center;
         transform: translateX(-50%);
-        padding-top: 44px;
+        padding-top: 30px;
         margin-bottom: 30px;
       }
 
@@ -95,12 +94,13 @@ body {
           padding: 0;
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
           margin-top: 19px;
+          cursor: pointer;
         }
       }
 
       .whiteBackground {
         position: absolute;
-        top: 443px;
+        top: 510px;
         z-index: -1;
         width: 100vw;
         height: 414;
@@ -117,19 +117,28 @@ body {
         width: 35px;
         height: 25px;
         left: -12px;
-        top: -265px;
+        top: -220px;
       }
 
       .chewingGum2 {
-        width: 43px;
-        height: 31px;
-        left: -35px;
-        // top: -25px;
+        width: 35px;
+        height: 25px;
+        left: -40px;
+        top: 5px;
       }
 
       .chewingGum3 {
         width: 43px;
         height: 31px;
+        left: 60px;
+        bottom: -5px;
+      }
+
+      .chewingGum4 {
+        width: 60px;
+        height: 42.67px;
+        top: 110px;
+        right: -70px;
       }
     }
   }
