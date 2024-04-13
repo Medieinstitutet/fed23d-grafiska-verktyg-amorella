@@ -12,7 +12,9 @@ body {
   background-color: $tertiaryColor;
 
   .homeSection {
-    // position: absolute;
+    display: grid;
+    grid-column: 1 / 4;
+
     .homeHeader,
     .newIcecreamArticleHeader {
       line-height: 40px;
