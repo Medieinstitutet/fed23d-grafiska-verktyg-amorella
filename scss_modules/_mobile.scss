@@ -25,6 +25,7 @@ body {
       left: 50%;
       height: 270.45px;
       width: 270.45px;
+      top: 34px;
     }
 
     .homeHeader {
@@ -96,11 +97,37 @@ body {
     }
 
     .whiteBackground {
-      position: relative;
-      top: -265px;
+      position: absolute;
+      top: 443px;
       z-index: -1;
-      width: 400.5px;
+      width: 100vw;
       height: 414;
+    }
+
+    .chewingGum1,
+    .chewingGum2,
+    .chewingGum3,
+    .chewingGum4 {
+      position: relative;
+    }
+
+    .chewingGum1 {
+      width: 35px;
+      height: 25px;
+      left: -12px;
+      top: -265px;
+    }
+
+    .chewingGum2 {
+      width: 43px;
+      height: 31px;
+      left: -35px;
+      // top: -25px;
+    }
+
+    .chewingGum3 {
+      width: 43px;
+      height: 31px;
     }
   }
 }
