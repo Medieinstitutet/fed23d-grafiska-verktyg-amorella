@@ -133,6 +133,23 @@ body {
 }
 
 /* header */
+header {
+  background-color: $primaryColor;
+  width: 100vw;
+  height: 5em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 35%;
+  margin-left: 1em;
+}
+
+.offScreenMenu {
+  display: none; //remove when working on hamburger menu
+}
 
 /* home */
 /* about */

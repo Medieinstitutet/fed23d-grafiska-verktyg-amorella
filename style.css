@@ -32,7 +32,6 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
 }
 b,
@@ -187,9 +186,6 @@ p {
 .textWeightBold {
   font-weight: 700;
 }
-button {
-  font-family: "Fira Sans", sans-serif;
-}
 h1,
 h2,
 h3,
@@ -237,9 +233,6 @@ p {
 .textWeightBold {
   font-weight: 700;
 }
-button {
-  font-family: "Fira Sans", sans-serif;
-}
 body {
   height: auto;
   width: 100%;
@@ -250,108 +243,20 @@ body {
   margin: 0;
   background-color: #fad3d9;
 }
-body .homeSection .homeHeader,
-body .homeSection .newIcecreamArticleHeader {
-  line-height: 40px;
-}
-body .homeSection .homeStarBg {
-  position: absolute;
-  transform: translateX(-50%) rotate(21.07deg);
-  z-index: -1;
-  left: 50%;
-  height: 270.45px;
-  width: 270.45px;
-  top: 34px;
-}
-body .homeSection .homeHeader {
-  left: 50%;
-  position: relative;
-  font-size: 2.62rem;
-  color: #eb5b98;
-  text-transform: uppercase;
-  width: 340px;
-  text-align: center;
-  transform: translateX(-50%);
-  padding-top: 44px;
-  margin-bottom: 30px;
-}
-body .homeSection .newIcecreamArticle {
-  width: 300px;
-  height: 461px;
-  border-radius: 20px;
-  background-color: #fff;
-  border-radius: 20px;
-  border: 4px solid #eb5b98;
-  margin: auto;
-  position: relative;
-}
-body .homeSection .newIcecreamArticle .newIcecreamArticleHeader {
-  position: absolute;
-  font-size: 3.5rem;
-  margin: 0;
-  transform: rotate(16.79deg);
-  right: -15px;
-  color: #ffedbe;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #eb5b98;
-  text-transform: uppercase;
-}
-body .homeSection .newIcecreamArticle .newIceCreamImg {
-  width: 100%;
-  height: 302px;
-  border-radius: 16px 16px 0 0;
-  border-bottom: none;
-}
-body .homeSection .newIcecreamArticle .newIcecreamArticleTxt {
-  margin: 0;
-  color: #b36b86;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 202px;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-body .homeSection .newIcecreamArticle .newIcecreamBtn {
+header {
   background-color: #eb5b98;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  width: 200px;
-  height: 40px;
-  margin-left: 50px;
-  padding: 0;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-top: 19px;
-}
-body .homeSection .whiteBackground {
-  position: absolute;
-  top: 443px;
-  z-index: -1;
   width: 100vw;
-  height: 414;
+  height: 5em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
-body .homeSection .chewingGum1,
-body .homeSection .chewingGum2,
-body .homeSection .chewingGum3,
-body .homeSection .chewingGum4 {
-  position: relative;
+header img {
+  height: 35%;
+  margin-left: 1em;
 }
-body .homeSection .chewingGum1 {
-  width: 35px;
-  height: 25px;
-  left: -12px;
-  top: -265px;
-}
-body .homeSection .chewingGum2 {
-  width: 43px;
-  height: 31px;
-  left: -35px;
-}
-body .homeSection .chewingGum3 {
-  width: 43px;
-  height: 31px;
+.offScreenMenu {
+  display: none;
 }
 @media only screen and (max-width: 1024px) and (min-width: 641px) {
   h1,
@@ -400,9 +305,6 @@ body .homeSection .chewingGum3 {
   }
   .textWeightBold {
     font-weight: 700;
-  }
-  button {
-    font-family: "Fira Sans", sans-serif;
   }
   body {
     grid-template-columns: repeat(8, minmax(0, 1fr));
@@ -457,12 +359,9 @@ body .homeSection .chewingGum3 {
   .textWeightBold {
     font-weight: 700;
   }
-  button {
-    font-family: "Fira Sans", sans-serif;
-  }
   body {
     grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: 16px;
     margin-block: 20px;
   }
-}
+} /*# sourceMappingURL=style.css.map */
