@@ -11,125 +11,126 @@ body {
   margin: 0;
   background-color: $tertiaryColor;
 
-  .homeSection {
+  main {
+    grid-column: 1 / span 3;
     display: grid;
-    grid-column: 1 / 4;
-
-    .homeHeader,
-    .newIcecreamArticleHeader {
-      line-height: 40px;
-    }
-
-    .homeStarBg {
-      position: absolute;
-      transform: translateX(-50%) rotate(21.07deg);
-      z-index: -1;
-      left: 50%;
-      height: 270.45px;
-      width: 270.45px;
-      top: 34px;
-    }
-
-    .homeHeader {
-      left: 50%;
-      position: relative;
-      font-size: 2.62rem;
-      color: $primaryColor;
-      text-transform: uppercase;
-      width: 340px;
-      text-align: center;
-      transform: translateX(-50%);
-      padding-top: 44px;
-      margin-bottom: 30px;
-    }
-
-    .newIcecreamArticle {
-      width: 300px;
-      height: 461px;
-      border-radius: 20px;
-      background-color: #fff;
-      border-radius: 20px;
-      border: 4px solid $primaryColor;
-      margin: auto;
-      position: relative;
-
+    .homeSection {
+      .homeHeader,
       .newIcecreamArticleHeader {
+        line-height: 40px;
+      }
+
+      .homeStarBg {
         position: absolute;
-        font-size: 3.5rem;
-        margin: 0;
-        transform: rotate(16.79deg);
-        right: -15px;
-        color: $yellowColor;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: $primaryColor;
+        transform: translateX(-50%) rotate(21.07deg);
+        z-index: -1;
+        left: 50%;
+        height: 270.45px;
+        width: 270.45px;
+        top: 34px;
+      }
+
+      .homeHeader {
+        left: 50%;
+        position: relative;
+        font-size: 2.62rem;
+        color: $primaryColor;
         text-transform: uppercase;
+        width: 340px;
+        text-align: center;
+        transform: translateX(-50%);
+        padding-top: 44px;
+        margin-bottom: 30px;
       }
 
-      .newIceCreamImg {
-        width: 100%;
-        height: 302px;
-        border-radius: 16px 16px 0 0;
-        border-bottom: none;
-      }
-
-      .newIcecreamArticleTxt {
-        margin: 0;
-        color: $hoverColor;
-        font-weight: bold;
-        font-size: 1rem;
-        width: 202px;
-        margin-left: 50px;
-        margin-top: 20px;
-      }
-
-      .newIcecreamBtn {
-        background-color: $primaryColor;
-        color: #fff;
-        border: none;
+      .newIcecreamArticle {
+        width: 300px;
+        height: 461px;
         border-radius: 20px;
-        font-size: 1rem;
-        text-transform: uppercase;
-        width: 200px;
-        height: 40px;
-        margin-left: 50px;
-        padding: 0;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        margin-top: 19px;
+        background-color: #fff;
+        border-radius: 20px;
+        border: 4px solid $primaryColor;
+        margin: auto;
+        position: relative;
+
+        .newIcecreamArticleHeader {
+          position: absolute;
+          font-size: 3.5rem;
+          margin: 0;
+          transform: rotate(16.79deg);
+          right: -15px;
+          color: $yellowColor;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: $primaryColor;
+          text-transform: uppercase;
+        }
+
+        .newIceCreamImg {
+          width: 100%;
+          height: 302px;
+          border-radius: 16px 16px 0 0;
+          border-bottom: none;
+        }
+
+        .newIcecreamArticleTxt {
+          margin: 0;
+          color: $hoverColor;
+          font-weight: bold;
+          font-size: 1rem;
+          width: 202px;
+          margin-left: 50px;
+          margin-top: 20px;
+        }
+
+        .newIcecreamBtn {
+          background-color: $primaryColor;
+          color: #fff;
+          border: none;
+          border-radius: 20px;
+          font-size: 1rem;
+          text-transform: uppercase;
+          width: 200px;
+          height: 40px;
+          margin-left: 50px;
+          padding: 0;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+          margin-top: 19px;
+        }
       }
-    }
 
-    .whiteBackground {
-      position: absolute;
-      top: 443px;
-      z-index: -1;
-      width: 100vw;
-      height: 414;
-    }
+      .whiteBackground {
+        position: absolute;
+        top: 443px;
+        z-index: -1;
+        width: 100vw;
+        height: 414;
+      }
 
-    .chewingGum1,
-    .chewingGum2,
-    .chewingGum3,
-    .chewingGum4 {
-      position: relative;
-    }
+      .chewingGum1,
+      .chewingGum2,
+      .chewingGum3,
+      .chewingGum4 {
+        position: relative;
+      }
 
-    .chewingGum1 {
-      width: 35px;
-      height: 25px;
-      left: -12px;
-      top: -265px;
-    }
+      .chewingGum1 {
+        width: 35px;
+        height: 25px;
+        left: -12px;
+        top: -265px;
+      }
 
-    .chewingGum2 {
-      width: 43px;
-      height: 31px;
-      left: -35px;
-      // top: -25px;
-    }
+      .chewingGum2 {
+        width: 43px;
+        height: 31px;
+        left: -35px;
+        // top: -25px;
+      }
 
-    .chewingGum3 {
-      width: 43px;
-      height: 31px;
+      .chewingGum3 {
+        width: 43px;
+        height: 31px;
+      }
     }
   }
 }
