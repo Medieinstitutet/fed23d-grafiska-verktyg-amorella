@@ -20,4 +20,126 @@ body {
 /* customer reviews */
 /* cookies pop-up */
 /* footer */
+footer {
+  // Doesn't inherit body's grid
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  gap: 20px;
+
+  background-image: url(../assets/images/footer/footer_mobile.webp);
+  background-size: cover;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  p {
+    margin: 0;
+  }
+  .footerAmorellaLogo,
+  .footerContactText,
+  .footerContactContainer,
+  .footerSocialsText,
+  .footerSocialsContainer,
+  .footerSubscriptionContainer,
+  .footerDecorativeLine,
+  .footerLanguageSelector,
+  .footerCookiePolicy,
+  .footerCopyright {
+    justify-self: center;
+    grid-column: 2 / span 2;
+  }
+
+  .footerAmorellaLogo {
+    display: grid;
+    padding-top: 70%;
+    width: 148.42px;
+  }
+  .footerContactText,
+  .footerSocialsText {
+    font-size: large;
+    font-weight: bold;
+  }
+  .footerContactText {
+    padding-top: 50%;
+  }
+  .footerContactContainer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    row-gap: 20%;
+    align-items: center;
+    margin-bottom: 30%;
+    .footerPhoneSvg,
+    .footerEmailSvg,
+    .footerLocationSvg {
+      height: auto;
+      width: 20px;
+      justify-self: center;
+    }
+    .footerContactLocation {
+      width: 100px;
+    }
+  }
+
+  .footerSocialsContainer {
+    display: grid;
+    .footerFacebookImg,
+    .footerTwitterImg,
+    .footerInstagramImg {
+      width: 33px;
+      height: 33px;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .footerSocialsText {
+      padding-bottom: 10%;
+      grid-column: span 3;
+    }
+  }
+
+  // Disabled state
+  .footerSubscriptionContainer {
+    margin-top: 35%;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    border: 0.8px solid white;
+    border-radius: 20px;
+    .footerSubscriptionInput {
+      border: none;
+      background-color: transparent;
+      height: 36px;
+      width: 100px;
+      padding-left: 20px;
+      &::placeholder {
+        color: white;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        font-size: small;
+      }
+    }
+    .footerSubscriptionBtn {
+      border: none;
+      border-radius: 20px;
+      color: $primaryColor;
+      background-color: white;
+      font-family: "Fira Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      height: 36px;
+      width: 120px;
+    }
+  }
+
+  .footerDecorativeLine {
+    height: 1px;
+    width: 95vw;
+    background-color: white;
+  }
+  .footerCopyright {
+    opacity: 60%;
+    white-space: nowrap;
+    margin-bottom: 15%;
+  }
+}
 /* contact */
