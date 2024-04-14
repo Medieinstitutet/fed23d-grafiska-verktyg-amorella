@@ -31,11 +31,9 @@ header img {
 .offScreenMenu {
   font-family: "Fira Sans";
   background-color: $primaryColor;
-  height: 26vh;
-  width: 100%;
-  max-width: 450px;
+  width: 100vw;
   position: fixed;
-  top: -52vh;
+  top: -62vh;
   display: flex;
   flex-direction: column;
   align-items: center;
