@@ -1,6 +1,4 @@
 /* header + menu + nav */
-
-
 const hamMenu = document.querySelector(".hamMenu");
 
 const offScreenMenu = document.querySelector(".offScreenMenu");

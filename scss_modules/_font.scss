@@ -1,3 +1,7 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -38,7 +42,6 @@ h6 {
 }
 /* Regular text size below */
 p {
-  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: small;
 }
@@ -51,14 +54,11 @@ p {
   font-weight: 700;
 }
 
-button {
-  font-family: "Fira Sans", sans-serif;
-}
 a {
-  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 a:visited {
   color: black;
