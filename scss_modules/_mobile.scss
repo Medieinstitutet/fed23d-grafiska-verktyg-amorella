@@ -258,7 +258,8 @@ section.homeSection {
     // width: px;
   }
 
-  .pistachioArticle {
+  .pistachioArticle,
+  .blueberryArticle {
     height: 452px;
     width: 258px;
     background-color: #fff;
@@ -266,25 +267,57 @@ section.homeSection {
     border-radius: 20px;
     border: 4px solid #fff;
     position: relative;
+    .pistachioImg,
+    .blueberryImg {
+      position: absolute;
+    }
+
     .pistachioImg {
-      position: absolute;
+      height: 91px;
+      width: 75px;
+      left: -40px;
+      top: -45px;
     }
 
-    .pistachioHeader {
-      position: absolute;
-      top: -100px;
+    .blueberryImg {
+      height: 129px;
+      width: 109px;
+      left: -60px;
+      top: -65px;
     }
 
-    .pistachioIcecreamImg {
+    .pistachioHeader,
+    .blueberryHeader {
+      position: absolute;
+      top: -78px;
+      left: -14px;
+      color: $tertiaryColor;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      text-transform: uppercase;
+      font-size: 2rem;
+      transform: rotate(-14.52deg);
+    }
+
+    .pistachioIcecreamImg,
+    .blueberryIcecreamImg {
       border-radius: 20px 20px 0 0;
     }
-    .pistachioArticleTxt {
+    .pistachioArticleTxt,
+    .blueberryArticleTxt {
       font-size: 1rem;
       padding: 30px 0 30px 0;
       margin: 0 30px 0 30px;
       width: 190px;
       height: 57px;
     }
+  }
+
+  .pistachioArticle {
+    margin-top: 102px;
+  }
+  .blueberryArticle {
+    margin-top: 64px;
   }
 }
 
