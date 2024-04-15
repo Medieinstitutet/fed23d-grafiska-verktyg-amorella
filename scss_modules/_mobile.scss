@@ -363,6 +363,7 @@ section.about {
     border-radius: 20px;
     border: 4px solid #fff;
     position: relative;
+    z-index: -1;
     .pistachioImg,
     .blueberryImg {
       position: absolute;
