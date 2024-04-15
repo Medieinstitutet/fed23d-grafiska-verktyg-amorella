@@ -59,6 +59,12 @@ header {
   .offScreenMenu.active {
     top: 0;
   }
+  .underlineAnimation {
+    text-decoration: none;
+  }
+  a {
+    color: white;
+  }
   nav {
     padding: 0.8rem;
     position: absolute;
