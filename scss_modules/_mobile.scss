@@ -352,7 +352,6 @@ section.about {
     margin-top: 171px;
     color: $primaryColor;
     text-align: center;
-    // width: px;
   }
 
   .pistachioArticle,
@@ -364,6 +363,8 @@ section.about {
     border-radius: 20px;
     border: 4px solid #fff;
     position: relative;
+    box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.493);
+
     .pistachioImg,
     .blueberryImg {
       position: absolute;
