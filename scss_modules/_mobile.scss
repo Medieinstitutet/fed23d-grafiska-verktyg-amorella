@@ -135,7 +135,7 @@ section.homeSection {
     width: 250px;
     text-align: center;
     transform: translateX(-50%);
-    padding-top: 30px;
+    padding-top: 110px;
     margin-bottom: 30px;
     z-index: -1;
   }
@@ -148,6 +148,7 @@ section.homeSection {
     border-radius: 20px;
     border: 4px solid $primaryColor;
     margin: auto;
+    margin-top: 50px;
     position: relative;
     z-index: -1;
 
