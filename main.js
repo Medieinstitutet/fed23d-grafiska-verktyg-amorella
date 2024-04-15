@@ -1,6 +1,15 @@
 /* header + menu + nav */
 
 
+const hamMenu = document.querySelector(".hamMenu");
+
+const offScreenMenu = document.querySelector(".offScreenMenu");
+
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+});
+
 /* Cookie Pop-Up */
 const body = document.querySelector("body")
 const cookieDialog = document.createElement("dialog")
@@ -58,6 +67,4 @@ cookieBody.append(cookieBodyHeading, cookieBodyContent, cookieBodyBtnContainer);
 cookieFooter.append(cookieFooterCustomize, cookieFooterPrivacyPolicy)
 cookieDialog.append(cookieHeader, cookieBody, cookieFooter)
 body.append(cookieDialog)
-
-
 

@@ -157,10 +157,85 @@ header {
 header img {
   height: 35%;
   margin-left: 1em;
+  z-index: 99;
 }
 
 .offScreenMenu {
-  display: none; //remove when working on hamburger menu
+  font-family: "Fira Sans";
+  background-color: $primaryColor;
+  width: 100vw;
+  position: fixed;
+  top: -62vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  margin-top: 5em;
+}
+
+.offScreenMenu ul {
+  list-style: none;
+  color: white;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.offScreenMenu li {
+  padding: 0.5em;
+}
+
+.offScreenMenu.active {
+  top: 0;
+}
+
+nav {
+  padding: 0.8rem;
+  position: absolute;
+  width: 100vw;
+}
+
+.hamMenu {
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  position: relative;
+}
+
+.hamMenu span {
+  height: 5px;
+  width: 80%;
+  background-color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+
+.hamMenu span:nth-child(1) {
+  top: 25%;
+}
+
+.hamMenu span:nth-child(2) {
+  top: 75%;
+}
+
+.hamMenu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.hamMenu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamMenu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 /* home */
