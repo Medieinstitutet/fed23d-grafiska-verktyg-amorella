@@ -575,6 +575,84 @@ section.about div.bottomSplat article p {
   font-size: medium;
   margin: 0;
 }
+.flavourSection {
+  height: 100vh;
+}
+.flavourSection h5 {
+  line-height: 40px;
+  font-size: 2rem;
+}
+.flavourSection .flavourHeading {
+  margin-top: 171px;
+  color: #eb5b98;
+  text-align: center;
+}
+.flavourSection .pistachioArticle,
+.flavourSection .blueberryArticle {
+  height: 452px;
+  width: 258px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  position: relative;
+}
+.flavourSection .pistachioArticle .pistachioImg,
+.flavourSection .pistachioArticle .blueberryImg,
+.flavourSection .blueberryArticle .pistachioImg,
+.flavourSection .blueberryArticle .blueberryImg {
+  position: absolute;
+}
+.flavourSection .pistachioArticle .pistachioImg,
+.flavourSection .blueberryArticle .pistachioImg {
+  height: 91px;
+  width: 75px;
+  left: -40px;
+  top: -45px;
+}
+.flavourSection .pistachioArticle .blueberryImg,
+.flavourSection .blueberryArticle .blueberryImg {
+  height: 129px;
+  width: 109px;
+  left: -60px;
+  top: -65px;
+}
+.flavourSection .pistachioArticle .pistachioHeader,
+.flavourSection .pistachioArticle .blueberryHeader,
+.flavourSection .blueberryArticle .pistachioHeader,
+.flavourSection .blueberryArticle .blueberryHeader {
+  position: absolute;
+  top: -78px;
+  left: -14px;
+  color: #fad3d9;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  transform: rotate(-14.52deg);
+}
+.flavourSection .pistachioArticle .pistachioIcecreamImg,
+.flavourSection .pistachioArticle .blueberryIcecreamImg,
+.flavourSection .blueberryArticle .pistachioIcecreamImg,
+.flavourSection .blueberryArticle .blueberryIcecreamImg {
+  border-radius: 20px 20px 0 0;
+}
+.flavourSection .pistachioArticle .pistachioArticleTxt,
+.flavourSection .pistachioArticle .blueberryArticleTxt,
+.flavourSection .blueberryArticle .pistachioArticleTxt,
+.flavourSection .blueberryArticle .blueberryArticleTxt {
+  font-size: 1rem;
+  padding: 30px 0 30px 0;
+  margin: 0 30px 0 30px;
+  width: 190px;
+  height: 57px;
+}
+.flavourSection .pistachioArticle {
+  margin-top: 102px;
+}
+.flavourSection .blueberryArticle {
+  margin-top: 64px;
+}
 footer {
   display: grid;
   grid-column: 1/5;
