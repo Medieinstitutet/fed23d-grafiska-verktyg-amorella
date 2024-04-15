@@ -168,5 +168,75 @@ header img {
 /* flavour */
 /* customer reviews */
 /* cookies pop-up */
+.cookieDialog {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 80vh;
+  padding: 0;
+  border: 1px solid $primaryColor;
+  .cookieHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 43px;
+    padding: 2px 10px 2px 25px;
+    background-color: $primaryColor;
+    color: white;
+    p {
+      align-self: center;
+    }
+    .cookieHeaderCloseBtn {
+      background-color: $primaryColor;
+      border: none;
+      height: auto;
+      aspect-ratio: 1;
+    }
+  }
+  .cookieBody {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 25px;
+    justify-content: center;
+    .cookieBodyBtnContainer {
+      display: flex;
+      flex-direction: column;
+      height: 170px;
+      width: 200px;
+      margin-block: 25px;
+      justify-content: space-between;
+      button {
+        width: 200px;
+        height: 43px;
+        border: none;
+        border-radius: 20px;
+        background-color: $primaryColor;
+        font-family: "Fira Sans", sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: white;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      button:active {
+        background-color: white;
+      }
+      button.cookieBodyRejectAllBtn {
+        background-color: white;
+        border: 1px solid $hoverColor;
+        color: $hoverColor;
+      }
+      button.cookieBodyRejectAllBtn:active {
+        background-color: white;
+      }
+    }
+  }
+  .cookieFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
 /* footer */
 /* contact */
