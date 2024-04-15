@@ -368,6 +368,7 @@ section.about {
     .blueberryImg {
       position: absolute;
       z-index: 1;
+      animation: floatAnimation 3s ease-in-out infinite alternate;
     }
 
     .pistachioImg {
@@ -384,6 +385,15 @@ section.about {
       top: -65px;
     }
 
+    @keyframes floatAnimation {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+
     .pistachioHeader,
     .blueberryHeader {
       position: absolute;
@@ -396,6 +406,7 @@ section.about {
       font-size: 2rem;
       transform: rotate(-14.52deg);
       z-index: 1;
+      transition: 0.5s all ease-in-out;
     }
 
     .pistachioImgContainer,
@@ -414,6 +425,7 @@ section.about {
         transform: scale(1.1);
       }
     }
+
     .pistachioArticleTxt,
     .blueberryArticleTxt {
       font-size: 1rem;
@@ -423,7 +435,16 @@ section.about {
       height: 57px;
     }
   }
-
+  .blueberryArticle:hover .blueberryHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(23, 65, 252, 0.7);
+    font-size: 2.2rem;
+  }
+  .pistachioArticle:hover .pistachioHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(69, 252, 23, 0.7);
+    font-size: 2.2rem;
+  }
   .pistachioArticle {
     margin-top: 102px;
   }
