@@ -456,8 +456,9 @@ section.about {
 
 // customer reviews
 
-// cookies pop-up
-dialog.cookieDialog {
+
+/* cookies pop-up */
+/* dialog.cookieDialog {
   z-index: 900;
   display: flex;
   flex-direction: column;
@@ -526,7 +527,8 @@ dialog.cookieDialog {
     justify-content: space-between;
     padding: 20px;
   }
-}
+
+} */
 
 /* footer */
 footer {
