@@ -85,7 +85,7 @@ header {
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
-  a:hover::before {
+  a.selected::before {
     transform: scaleX(1);
   }
   nav {
