@@ -14,10 +14,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // gsap code here!
 
   ScrollTrigger.create({
-    trigger: section,
+    trigger: document.querySelector("#homeSection"),
     start: "top 40%",
     end: "bottom 40%",
-    toggleClass: { targets: "offScreenMenu", className: "selected" },
+    toggleClass: { targets: ".navHome", className: "selected" },
+  });
+
+  ScrollTrigger.create({
+    trigger: document.querySelector("#contactUs"),
+    start: "top 40%",
+    end: "bottom 40%",
+    toggleClass: { targets: ".navContact", className: "selected" },
   });
 });
 
