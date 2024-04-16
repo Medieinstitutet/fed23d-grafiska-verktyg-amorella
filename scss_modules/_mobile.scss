@@ -474,6 +474,61 @@ section.about {
   }
 }
 /* customer reviews */
+section.customerReview {
+  padding-top: 150px;
+  .customerReviewHeading,
+  .reviewSlogan {
+    text-align: center;
+
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .customerReviewHeading {
+    color: $primaryColor;
+    width: 50vw;
+  }
+  .reviewContainer,
+  .reviewContainerRight {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .reviewContainer {
+    background-image: url(../assets/icons/talkBubbleLeft.svg);
+  }
+  .reviewContainerRight {
+    background-image: url(../assets/icons/talkBubbleRight.svg);
+  }
+  .reviewStarsContainer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .reviewQuote {
+    width: 251px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .reviewName {
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 0;
+  }
+  .reviewNameSpecial {
+    padding-top: 10px;
+  }
+  .reviewSlogan {
+    color: $hoverColor;
+    max-width: 360px;
+    padding-top: 40px;
+  }
+}
+
 /* cookies pop-up */
 /* dialog.cookieDialog {
   z-index: 900;
