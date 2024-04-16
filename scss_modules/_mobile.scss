@@ -241,13 +241,109 @@ section.homeSection {
   }
 }
 /* about */
+section.about {
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  background-image: url("../assets/images/middle/middle_small.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -2;
+  div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    align-items: center;
+  }
+  div.topSplats {
+    svg {
+      z-index: -1;
+      position: relative;
+      height: fit-content;
+    }
+    svg.topSplat1 {
+      width: 18%;
+      position: absolute;
+      left: 20%;
+    }
+    svg.topSplat2 {
+      width: 95%;
+    }
+    p {
+      color: white;
+      font-size: larger;
+      z-index: 0;
+      height: 100px;
+      width: 65%;
+      margin: 0;
+      position: absolute;
+      top: 40%;
+    }
+    svg.topSplat3 {
+      width: 15%;
+      position: absolute;
+      right: 23%;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+  div.aboutImgContainer {
+    height: 58vw;
+    img {
+      position: absolute;
+      top: -10%;
+      border: 4px solid white;
+      border-radius: 20px;
+      width: 70%;
+      aspect-ratio: 1;
+    }
+  }
+  div.bottomSplat {
+    overflow-x: hidden;
+    display: flex;
+    svg {
+      position: relative;
+      width: auto;
+      z-index: -6;
+    }
+    article {
+      width: 95%;
+      max-height: 60%;
+      position: absolute;
+      top: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: scroll;
+      h3 {
+        height: fit-content;
+        color: white;
+        font-size: xx-large;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      p {
+        width: 80%;
+        height: fit-content;
+        color: white;
+        font-size: medium;
+        margin: 0;
+      }
+    }
+  }
+}
 
 /* flavour */
 
 /* customer reviews */
 
 /* cookies pop-up */
-dialog.cookieDialog {
+/* dialog.cookieDialog {
   z-index: 900;
   display: flex;
   flex-direction: column;
@@ -316,7 +412,7 @@ dialog.cookieDialog {
     justify-content: space-between;
     padding: 20px;
   }
-}
+} */
 /* footer */
 footer {
   display: grid;
