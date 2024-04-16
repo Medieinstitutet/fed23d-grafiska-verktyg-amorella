@@ -9,6 +9,10 @@ hamMenu.addEventListener("click", () => {
 });
 
 /* menu animation */
+document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(ScrollTrigger);
+  // gsap code here!
+});
 
 /* Cookie Pop-Up */
 const body = document.querySelector("body");
