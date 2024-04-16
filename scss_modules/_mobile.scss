@@ -111,7 +111,6 @@ header {
 section.homeSection {
   width: auto;
   height: auto;
-  z-index: -1;
 
   .homeHeader,
   .newIcecreamArticleHeader {
@@ -140,7 +139,6 @@ section.homeSection {
     transform: translateX(-50%);
     padding-top: 110px;
     margin-bottom: 30px;
-    z-index: -1;
   }
 
   .newIcecreamArticle {
@@ -153,7 +151,6 @@ section.homeSection {
     margin: auto;
     margin-top: 50px;
     position: relative;
-    z-index: -1;
 
     .newHeaderWrapper {
       transform: rotate(16.79deg);
@@ -198,7 +195,6 @@ section.homeSection {
       color: $hoverColor;
       font-weight: bold;
       font-size: 1rem;
-      width: 202px;
       margin-left: 50px;
       margin-top: 20px;
     }
