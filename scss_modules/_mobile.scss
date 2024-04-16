@@ -27,6 +27,7 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 3;
   img {
     height: 35%;
     margin-left: 1em;
@@ -351,7 +352,6 @@ section.about {
     margin-top: 171px;
     color: $primaryColor;
     text-align: center;
-    // width: px;
   }
 
   .pistachioArticle,
@@ -363,10 +363,13 @@ section.about {
     border-radius: 20px;
     border: 4px solid #fff;
     position: relative;
-    z-index: -1;
+    box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.493);
+
     .pistachioImg,
     .blueberryImg {
       position: absolute;
+      z-index: 1;
+      animation: floatAnimation 3s ease-in-out infinite alternate;
     }
 
     .pistachioImg {
@@ -383,6 +386,15 @@ section.about {
       top: -65px;
     }
 
+    @keyframes floatAnimation {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+
     .pistachioHeader,
     .blueberryHeader {
       position: absolute;
@@ -394,12 +406,27 @@ section.about {
       text-transform: uppercase;
       font-size: 2rem;
       transform: rotate(-14.52deg);
+      z-index: 1;
+      transition: 0.5s all ease-in-out;
     }
 
-    .pistachioIcecreamImg,
-    .blueberryIcecreamImg {
+    .pistachioImgContainer,
+    .blueberryImgContainer {
+      margin: 0;
+      overflow: hidden;
       border-radius: 20px 20px 0 0;
+
+      .pistachioIcecreamImg,
+      .blueberryIcecreamImg {
+        transition: 0.5s all ease-in-out;
+        transform-origin: center center;
+      }
+      .pistachioIcecreamImg:hover,
+      .blueberryIcecreamImg:hover {
+        transform: scale(1.1);
+      }
     }
+
     .pistachioArticleTxt,
     .blueberryArticleTxt {
       font-size: 1rem;
@@ -409,7 +436,16 @@ section.about {
       height: 57px;
     }
   }
-
+  .blueberryArticle:hover .blueberryHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(23, 65, 252, 0.7);
+    font-size: 2.2rem;
+  }
+  .pistachioArticle:hover .pistachioHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 5px rgba(69, 252, 23, 0.7);
+    font-size: 2.2rem;
+  }
   .pistachioArticle {
     margin-top: 102px;
   }
