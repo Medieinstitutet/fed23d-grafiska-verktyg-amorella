@@ -527,6 +527,12 @@ section.customerReview {
     max-width: 360px;
     padding-top: 40px;
   }
+  .reviewCircleEffect {
+    position: absolute;
+    right: 0;
+    z-index: -2;
+    top: 3718px;
+  }
 }
 
 /* cookies pop-up */
