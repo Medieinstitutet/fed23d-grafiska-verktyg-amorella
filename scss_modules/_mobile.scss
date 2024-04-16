@@ -113,7 +113,6 @@ section.homeSection {
   height: auto;
   z-index: -1;
 
-  .homeHeader,
   .newIcecreamArticleHeader {
     line-height: 40px;
   }
@@ -132,7 +131,6 @@ section.homeSection {
   .homeHeader {
     left: 50%;
     position: relative;
-    font-size: 2.62rem;
     color: $primaryColor;
     text-transform: uppercase;
     width: 250px;
@@ -161,7 +159,6 @@ section.homeSection {
 
     .newIcecreamArticleHeader {
       position: absolute;
-      font-size: 3.5rem;
       margin: 0;
       right: -15px;
       top: -25px;
@@ -197,7 +194,6 @@ section.homeSection {
       margin: 0;
       color: $hoverColor;
       font-weight: bold;
-      font-size: 1rem;
       width: 202px;
       margin-left: 50px;
       margin-top: 20px;
@@ -208,7 +204,7 @@ section.homeSection {
       color: #fff;
       border: none;
       border-radius: 20px;
-      font-size: 1rem;
+      font-weight: 500;
       text-transform: uppercase;
       width: 200px;
       height: 40px;
@@ -298,13 +294,13 @@ section.about {
     }
     p {
       color: white;
-      font-size: larger;
+      font-size: 20px;
       z-index: 0;
       height: 100px;
       width: 65%;
       margin: 0;
       position: absolute;
-      top: 40%;
+      top: 34%;
     }
     svg.topSplat3 {
       width: 15%;
@@ -337,23 +333,21 @@ section.about {
       width: 95%;
       max-height: 60%;
       position: absolute;
-      top: 15%;
+      top: 16%;
       display: flex;
       flex-direction: column;
       align-items: center;
       overflow: scroll;
-      h3 {
+      h5 {
         height: fit-content;
         color: white;
-        font-size: xx-large;
         text-transform: uppercase;
-        margin-bottom: 16px;
+        margin-block: 10px;
       }
       p {
-        width: 80%;
+        width: 90%;
         height: fit-content;
         color: white;
-        font-size: medium;
         margin: 0;
       }
     }
@@ -365,11 +359,11 @@ section.about {
 
   h5 {
     line-height: 40px;
-    font-size: 2rem;
   }
 
   .flavourHeading {
     margin-top: 171px;
+    margin-bottom: 20px;
     color: $primaryColor;
     text-align: center;
   }
@@ -479,11 +473,8 @@ section.customerReview {
   .customerReviewHeading,
   .reviewSlogan {
     text-align: center;
-
     margin: auto;
     padding-bottom: 50px;
-    font-size: 32px;
-    line-height: 40px;
   }
   .customerReviewHeading {
     color: $primaryColor;
@@ -512,7 +503,7 @@ section.customerReview {
   .reviewQuote {
     width: 251px;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 15px;
   }
   .reviewName {
     text-align: center;
@@ -635,13 +626,9 @@ footer {
     padding-top: 70%;
     width: 148.42px;
   }
-  .footerContactText,
-  .footerSocialsText {
-    font-size: large;
-    font-weight: bold;
-  }
   .footerContactText {
     padding-top: 50%;
+    font-size: 20px;
   }
   .footerContactContainer {
     display: grid;
@@ -672,8 +659,9 @@ footer {
       margin-right: 6px;
     }
     .footerSocialsText {
-      padding-bottom: 10%;
+      padding-bottom: 15%;
       grid-column: span 3;
+      font-size: 20px;
     }
   }
 
@@ -694,8 +682,6 @@ footer {
       border-radius: 20px;
       &::placeholder {
         color: white;
-        font-weight: 400;
-        font-size: small;
       }
     }
     .footerSubscriptionBtn {
@@ -703,8 +689,6 @@ footer {
       border-radius: 20px;
       color: $primaryColor;
       background-color: white;
-      font-weight: 400;
-      font-size: 16px;
       height: 36px;
       width: 180px;
       &:disabled {
