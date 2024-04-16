@@ -12,6 +12,13 @@ hamMenu.addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
   // gsap code here!
+
+  ScrollTrigger.create({
+    trigger: section,
+    start: "top 40%",
+    end: "bottom 40%",
+    toggleClass: { targets: "offScreenMenu", className: "selected" },
+  });
 });
 
 /* Cookie Pop-Up */
