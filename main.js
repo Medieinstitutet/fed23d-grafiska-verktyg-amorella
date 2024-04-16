@@ -10,7 +10,7 @@ hamMenu.addEventListener("click", () => {
 
 /* menu animation */
 document.addEventListener("DOMContentLoaded", (event) => {
-  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
   // gsap code here!
 });
 
