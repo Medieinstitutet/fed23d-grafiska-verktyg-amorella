@@ -27,7 +27,7 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 3;
+  z-index: 300;
   img {
     height: 35%;
     margin-left: 1em;
@@ -338,7 +338,6 @@ section.about {
     }
   }
 }
-
 /* flavour */
 .flavourSection {
   height: 100vh;
@@ -453,10 +452,7 @@ section.about {
     margin-top: 64px;
   }
 }
-
-// customer reviews
-
-
+/* customer reviews */
 /* cookies pop-up */
 /* dialog.cookieDialog {
   z-index: 900;
@@ -529,8 +525,7 @@ section.about {
   }
 
 } */
-
-/* footer */
+/* footer - contact */
 footer {
   display: grid;
   grid-column: 1 / 5;
@@ -649,4 +644,3 @@ footer {
     margin-bottom: 15%;
   }
 }
-/* contact */
