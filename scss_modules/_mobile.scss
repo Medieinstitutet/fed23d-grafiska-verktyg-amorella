@@ -361,7 +361,7 @@ section.about {
 }
 /* flavour */
 .flavourSection {
-  height: 100vh;
+  min-height: 100vh;
 
   h5 {
     line-height: 40px;
@@ -474,7 +474,7 @@ section.about {
   }
 }
 /* customer reviews */
-section.customerReview {
+.customerReview {
   padding-top: 150px;
   .customerReviewHeading,
   .reviewSlogan {
@@ -613,6 +613,7 @@ footer {
   width: 100vw;
   bottom: 0;
   color: white;
+
   p {
     margin: 0;
   }
