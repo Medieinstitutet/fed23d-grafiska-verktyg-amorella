@@ -270,7 +270,7 @@ section.about {
   flex-direction: column;
   width: 100%;
   height: fit-content;
-  background-image: url("assets/images/middle/middle_small.webp");
+  background-image: url("../assets/images/middle/middle_small.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -501,7 +501,7 @@ section.customerReview {
     background-image: url("assets/icons/talkBubbleLeft.svg");
   }
   .reviewContainerRight {
-    background-image: url(assets/icons/talkBubbleRight.svg);
+    background-image: url("assets/icons/talkBubbleRight.svg");
   }
   .reviewStarsContainer {
     display: flex;
@@ -608,7 +608,7 @@ footer {
   grid-row: auto;
   grid-template-columns: subgrid;
   row-gap: 20px;
-  background-image: url(assets/images/footer/footer_mobile.webp);
+  background-image: url(../assets/images/footer/footer_mobile.webp);
   background-size: cover;
   width: 100vw;
   bottom: 0;
