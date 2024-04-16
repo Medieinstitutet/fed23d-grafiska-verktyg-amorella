@@ -47,6 +47,8 @@ header {
     transition: 0.3s ease;
     margin-top: 5em;
     z-index: 10;
+    border-top: 0.1rem solid $yellowColor;
+    box-shadow: 1px 3px 3px grey;
   }
   .offScreenMenu ul {
     list-style: none;
