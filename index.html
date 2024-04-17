@@ -13,17 +13,30 @@
     <!-- Meta taggar -->
     <title>Amorella + Gabriella</title>
   </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Modak&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Meta taggar -->
+    <title>Amorella + Gabriella</title>
+  </head>
 
   <body>
     <header>
       <!-- header/menu/nav -->
       <img src="assets/icons/amorella-logo.svg" alt="Amorella logo" />
       <div class="offScreenMenu">
-        <ul>
-          <li>home</li>
-          <li>about</li>
-          <li>flavours</li>
-          <li>contact</li>
+        <ul class="underlineAnimation">
+          <li><a href="#homeSection" class="navHome">home</a></li>
+          <li><a href="#" class="navAbout">about</a></li>
+          <li><a href="#" class="navFlavours">flavours</a></li>
+          <li><a href="#contactUs" class="navContact">contact</a></li>
         </ul>
       </div>
       <nav>
@@ -37,7 +50,7 @@
 
     <main>
       <!-- home -->
-      <section class="homeSection">
+      <section class="homeSection" id="homeSection">
         <img
           class="homeStarBg"
           src="assets/icons/bubblegum-star.svg"
@@ -255,24 +268,29 @@
             <img src="./assets/icons/star.svg" alt="Pink star" />
             <img src="./assets/icons/star.svg" alt="Pink star" />
           </div>
-          <blockquote class="reviewQuote textWeightMedium">"Just when I thought my day couldn't get
-          any cooler, they
-          handed me a free ice cream!"</blockquote>
+          <blockquote class="reviewQuote textWeightMedium">
+            "Just when I thought my day couldn't get any cooler, they handed me
+            a free ice cream!"
+          </blockquote>
           <p class="reviewName reviewNameSpecial">- Jenni Pulli</p>
         </div>
         <h5 class="reviewSlogan">Making life sweeter, one scoop at a time!</h5>
-      <img class="reviewCircleEffect" src="./assets/icons/circle-effect-mobile.svg" alt="Moon icon">
-    </section>
+        <img
+          class="reviewCircleEffect"
+          src="./assets/icons/circle-effect-mobile.svg"
+          alt="Moon icon"
+        />
+      </section>
     </main>
 
-      <!-- footer -->
-      <footer>
+    <!-- footer -->
+    <footer>
       <img
         src="./assets/icons/amorella-logo.svg"
         alt="Amorella logo"
         class="footerAmorellaLogo"
       />
-      <p class="footerContactText textWeightBold">Contact us</p>
+      <p class="footerContactText textWeightBold" id="contactUs">Contact us</p>
       <div class="footerContactContainer">
         <img
           class="footerPhoneSvg"
@@ -324,7 +342,9 @@
           class="footerSubscriptionBtn"
           id="footerSubscriptionBtn"
           disabled
-        >Subscribe</button>
+        >
+          Subscribe
+        </button>
       </div>
       <span class="footerDecorativeLine"></span>
       <p class="footerLanguageSelector">En | Fi</p>
@@ -332,5 +352,8 @@
       <p class="footerCopyright">© 2024 Amorella AB. All rights reserved</p>
     </footer>
     <script type="module" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
   </body>
 </html>
