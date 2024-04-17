@@ -62,8 +62,6 @@
           </p>
           <button class="newIcecreamBtn">View this flavour</button>
         </article>
-
-
         <img
           class="whiteBackground"
           src="assets/images/white-background.webp"
@@ -218,8 +216,6 @@
           </p>
         </article>
       </section>
-
-
       <!-- customer reviews -->
       <section class="customerReview">
         <h5 class="customerReviewHeading">Customer reviews</h5>
@@ -259,25 +255,18 @@
             <img src="./assets/icons/star.svg" alt="Pink star" />
             <img src="./assets/icons/star.svg" alt="Pink star" />
           </div>
-          <blockquote class="reviewQuote textWeightMedium">
-            "Just when I thought my day couldn't get any cooler, they handed me
-            a free ice cream!"
-          </blockquote>
-          <p class="reviewName reviewNameSpecial">- Jenni Pulli</p>
-        </div>
-
-        <blockquote class="reviewQuote textWeightMedium">"Just when I thought my day couldn't get
+          <blockquote class="reviewQuote textWeightMedium">"Just when I thought my day couldn't get
           any cooler, they
           handed me a free ice cream!"</blockquote>
-        <p class="reviewName reviewNameSpecial">- Jenni Pulli</p>
-      </div>
-      <h5 class="reviewSlogan">Making life sweeter, one scoop at a time!</h5>
+          <p class="reviewName reviewNameSpecial">- Jenni Pulli</p>
+        </div>
+        <h5 class="reviewSlogan">Making life sweeter, one scoop at a time!</h5>
       <img class="reviewCircleEffect" src="./assets/icons/circle-effect-mobile.svg" alt="Moon icon">
     </section>
+    </main>
 
-
-    <footer>
       <!-- footer -->
+      <footer>
       <img
         src="./assets/icons/amorella-logo.svg"
         alt="Amorella logo"
@@ -326,10 +315,16 @@
       <div class="footerSubscriptionContainer">
         <input
           class="footerSubscriptionInput"
+          id="footerSubscriptionInput"
           type="email"
           placeholder="Your e-mail"
+          value=""
         />
-        <button class="footerSubscriptionBtn">Subscribe</button>
+        <button
+          class="footerSubscriptionBtn"
+          id="footerSubscriptionBtn"
+          disabled
+        >Subscribe</button>
       </div>
       <span class="footerDecorativeLine"></span>
       <p class="footerLanguageSelector">En | Fi</p>

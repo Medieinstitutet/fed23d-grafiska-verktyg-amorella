@@ -683,7 +683,6 @@ footer {
     }
   }
 
-  // Disabled state
   .footerSubscriptionContainer {
     display: flex;
     justify-content: space-between;
@@ -693,10 +692,12 @@ footer {
     margin-block: 35%;
     .footerSubscriptionInput {
       border: none;
+      color: #fff;
       background-color: transparent;
       height: 36px;
-      width: 100px;
+      width: 100%;
       padding-left: 20px;
+      border-radius: 20px;
       &::placeholder {
         color: white;
         font-weight: 400;
@@ -711,7 +712,10 @@ footer {
       font-weight: 400;
       font-size: 16px;
       height: 36px;
-      width: 120px;
+      width: 180px;
+      &:disabled {
+        opacity: 30%;
+      }
     }
   }
 

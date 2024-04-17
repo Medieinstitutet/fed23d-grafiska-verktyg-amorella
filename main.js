@@ -8,6 +8,28 @@ hamMenu.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
+/* Footer - input */
+const input = document.getElementById("footerSubscriptionInput")
+const subscribeBtn = document.getElementById("footerSubscriptionBtn")
+
+input.addEventListener("input", () => {
+  if (!input.value || input.value == "Try again...") {
+    return
+  } else {
+    subscribeBtn.removeAttribute("disabled")
+  }
+})
+
+subscribeBtn.addEventListener("click", () => {
+  if (!input.value || input.value == "Try again...") {
+    subscribeBtn.setAttribute("disabled", "disabled")
+    input.value = "Try again..."
+  } else {
+    input.value = "";
+    subscribeBtn.setAttribute("disabled", "disabled")
+  }
+})
+
 /* Cookie Pop-Up */
 const body = document.querySelector("body")
 const cookieDialog = document.createElement("dialog")
