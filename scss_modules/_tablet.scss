@@ -27,12 +27,46 @@ section.homeSection {
     // font-size: 42px;
     max-width: 680px;
     margin: auto;
+    position: relative;
+
     h3 {
       font-size: 2.62rem;
       padding-top: 300px;
-
+      position: relative;
       line-height: 40px;
-      // margin: 0;
+      z-index: 2;
+    }
+
+    .chewingGum1,
+    .chewingGum3,
+    .chewingGum4,
+    .chewingGum5,
+    .chewingGum6,
+    .chewingGum7 {
+      z-index: 1;
+      position: absolute;
+    }
+
+    .chewingGum1 {
+      width: 75.71px;
+      height: 62.23px;
+      top: 283px;
+      left: -30px;
+    }
+
+    .chewingGum2 {
+      width: 44.16px;
+      height: 36.46px;
+      top: -190px;
+      left: 0;
+      z-index: 0;
+    }
+
+    .chewingGum3 {
+      width: 44.16px;
+      height: 36.46px;
+      top: 270px;
+      left: 120px;
     }
   }
 }
