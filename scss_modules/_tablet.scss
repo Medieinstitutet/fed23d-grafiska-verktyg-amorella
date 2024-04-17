@@ -27,7 +27,6 @@ header {
     padding: 0 10px;
     position: relative;
   }
-
   ul li:not(:last-child)::after {
     content: "";
     border: 1px solid #e2e2e2;
@@ -37,23 +36,6 @@ header {
     top: 0;
     height: 100%;
   }
-  /*
-  .offScreenMenu li:nth-child(1) a {
-    padding: 0.2em;
-    border-right: solid 2px white;
-  }
-
-  .offScreenMenu li:nth-child(2) a {
-    padding: 0.2em;
-    border-right: solid 2px white;
-  }
-
-  .offScreenMenu li:nth-child(3) a {
-    padding: 0.2em;
-    border-right: solid 2px white;
-  }
-  */
-
   nav {
     display: none;
   }
