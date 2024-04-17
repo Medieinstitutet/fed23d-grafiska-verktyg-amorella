@@ -13,6 +13,19 @@
     <!-- Meta taggar -->
     <title>Amorella + Gabriella</title>
   </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Modak&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Meta taggar -->
+    <title>Amorella + Gabriella</title>
+  </head>
 
   <body>
     <header>
@@ -34,6 +47,7 @@
         </div>
       </nav>
     </header>
+
     <main>
       <!-- home -->
       <section class="homeSection" id="homeSection">
@@ -42,10 +56,12 @@
           src="assets/icons/bubblegum-star.svg"
           alt="yellow star for highlight"
         />
-        <h4 class="homeHeader">Bubblegum bliss</h4>
 
+        <h4 class="homeHeader">Bubblegum bliss</h4>
         <article class="newIcecreamArticle">
-          <h3 class="newIcecreamArticleHeader">New!</h3>
+          <div class="newHeaderWrapper">
+            <h3 class="newIcecreamArticleHeader">New!</h3>
+          </div>
           <img
             class="newIceCreamImg"
             src="/assets/images/ice-creams/bubblegum_mobile.webp"
@@ -53,13 +69,12 @@
             width="200"
             height="220"
           />
-          <p class="newIcecreamArticleTxt">
+          <p class="newIcecreamArticleTxt textWeightBold">
             Dive into a swirl of joy with Amorella's newest delight: Bubblegum
             Bliss!
           </p>
           <button class="newIcecreamBtn">View this flavour</button>
         </article>
-
         <img
           class="whiteBackground"
           src="assets/images/white-background.webp"
@@ -87,65 +102,218 @@
         />
       </section>
       <!-- about -->
-      <!-- flavours -->
+      <section class="about">
+        <div class="topSplats">
+          <svg
+            width="98"
+            height="38"
+            viewBox="0 0 98 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="topSplat1"
+          >
+            <path
+              d="M49 38C76.062 38 98 29.4934 98 19C98 8.50659 76.062 0 49 0C21.938 0 0 8.50659 0 19C0 29.4934 21.938 38 49 38Z"
+              fill="#EB5B98"
+            />
+          </svg>
+          <svg
+            width="633"
+            height="453"
+            viewBox="0 0 633 453"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="topSplat2"
+          >
+            <path
+              d="M256.06 42.5541C276.804 -13.5789 356.196 -13.5789 376.94 42.554L379.356 49.0918C390.488 79.2168 424.119 94.406 454.08 82.841L533.984 51.9986C574.821 36.2357 607.61 88.1105 576.158 118.556C552.226 141.721 565.39 182.37 598.384 186.926C644.365 193.275 644.365 259.725 598.384 266.074C565.39 270.63 552.226 311.279 576.158 334.444C607.61 364.89 574.821 416.764 533.984 401.001L454.08 370.159C424.119 358.594 390.488 373.783 379.356 403.908L376.94 410.446C356.196 466.579 276.804 466.579 256.06 410.446L253.644 403.908C242.512 373.783 208.881 358.594 178.92 370.159L99.0159 401.001C58.1785 416.764 25.3897 364.89 56.8419 334.444C80.7739 311.279 67.6097 270.63 34.6155 266.074C-11.365 259.725 -11.365 193.275 34.6155 186.926C67.6097 182.37 80.7739 141.721 56.8419 118.556C25.3897 88.1105 58.1785 36.2357 99.0159 51.9986L178.92 82.841C208.881 94.406 242.512 79.2168 253.644 49.0918L256.06 42.5541Z"
+              fill="#EB5B98"
+            />
+          </svg>
+          <p>
+            Join us on a journey of indulgence and happiness, one scoop at a
+            time!
+          </p>
+          <svg
+            width="65"
+            height="45"
+            viewBox="0 0 65 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="topSplat3"
+          >
+            <path
+              d="M32.5 45C50.4493 45 65 34.9264 65 22.5C65 10.0736 50.4493 0 32.5 0C14.5507 0 0 10.0736 0 22.5C0 34.9264 14.5507 45 32.5 45Z"
+              fill="#EB5B98"
+            />
+          </svg>
+        </div>
+        <div class="aboutImgContainer">
+          <img
+            src="assets\images\ice-creams\pink.webp"
+            alt="pink softserve icecream"
+          />
+        </div>
+        <div class="bottomSplat">
+          <svg
+            width="633"
+            height="453"
+            viewBox="0 0 633 453"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256.06 42.5541C276.804 -13.5789 356.196 -13.5789 376.94 42.554L379.356 49.0918C390.488 79.2168 424.119 94.406 454.08 82.841L533.984 51.9986C574.821 36.2357 607.61 88.1105 576.158 118.556C552.226 141.721 565.39 182.37 598.384 186.926C644.365 193.275 644.365 259.725 598.384 266.074C565.39 270.63 552.226 311.279 576.158 334.444C607.61 364.89 574.821 416.764 533.984 401.001L454.08 370.159C424.119 358.594 390.488 373.783 379.356 403.908L376.94 410.446C356.196 466.579 276.804 466.579 256.06 410.446L253.644 403.908C242.512 373.783 208.881 358.594 178.92 370.159L99.0159 401.001C58.1785 416.764 25.3897 364.89 56.8419 334.444C80.7739 311.279 67.6097 270.63 34.6155 266.074C-11.365 259.725 -11.365 193.275 34.6155 186.926C67.6097 182.37 80.7739 141.721 56.8419 118.556C25.3897 88.1105 58.1785 36.2357 99.0159 51.9986L178.92 82.841C208.881 94.406 242.512 79.2168 253.644 49.0918L256.06 42.5541Z"
+              fill="#EB5B98"
+            />
+          </svg>
+          <article>
+            <h5>About</h5>
+            <p>
+              Welcome to Scoops & Smiles, where every lick is a dance of delight
+              and every scoop a celebration of sweetness! At our whimsical ice
+              cream emporium, we craft frozen fantasies that tickle your taste
+              buds and warm your heart. From classic cones to avant-garde
+              sundaes, we blend premium ingredients with a sprinkle of magic to
+              create flavors that ignite joy in every bite.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!---flavour--->
+      <section class="flavourSection">
+        <h5 class="flavourHeading">Some flavours you might like!</h5>
+        <article class="pistachioArticle">
+          <img
+            class="pistachioImg"
+            src="/assets/icons/pistachio2.svg"
+            alt="An animated image of a pistachio"
+            width="75"
+            height="91"
+          />
+          <h5 class="pistachioHeader">Pistachio gelatio</h5>
+          <figure class="pistachioImgContainer">
+            <img
+              class="pistachioIcecreamImg"
+              src="/assets/images/ice-creams/pistage_small.webp"
+              alt="green pistachio flavour ice cream"
+              width="250"
+              height="330"
+            />
+          </figure>
+          <p class="pistachioArticleTxt">
+            Each scoop whispers tales of creamy bliss and nutty perfection!
+          </p>
+        </article>
+
+        <article class="blueberryArticle">
+          <img
+            class="blueberryImg"
+            src="/assets/icons/blueberry.svg"
+            alt="An animated image of a blueberry"
+            width="89"
+            height="109"
+          />
+          <h5 class="blueberryHeader">Blueberry dream</h5>
+          <figure class="blueberryImgContainer">
+            <img
+              class="blueberryIcecreamImg"
+              src="/assets/images/ice-creams/blueberry_small.webp"
+              alt="blueberry flavour ice cream"
+              width="250"
+              height="330"
+            />
+          </figure>
+          <p class="blueberryArticleTxt">
+            Luscious essence of berries hugged by velvety dairy goodness!
+          </p>
+        </article>
+      </section>
       <!-- customer reviews -->
+      <section class="customerReview">
+        <h5 class="customerReviewHeading">Customer reviews</h5>
+        <div class="reviewContainer">
+          <div class="reviewStarsContainer">
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+          </div>
+          <blockquote class="reviewQuote textWeightMedium">
+            “I wanted to say something bad, but then I got a free ice-cream!
+            Yaaaay!”
+          </blockquote>
+          <p class="reviewName">- Jari Leminaho</p>
+        </div>
+        <div class="reviewContainerRight">
+          <div class="reviewStarsContainer">
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+          </div>
+          <blockquote class="reviewQuote textWeightMedium">
+            "Bubblegum bliss: Sweet nostalgia in every scoop. Totally tubular
+            treat!"
+          </blockquote>
+          <p class="reviewName">- Henry Scoop</p>
+        </div>
+        <div class="reviewContainer">
+          <div class="reviewStarsContainer">
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+            <img src="./assets/icons/star.svg" alt="Pink star" />
+          </div>
+          <blockquote class="reviewQuote textWeightMedium">
+            "Just when I thought my day couldn't get any cooler, they handed me
+            a free ice cream!"
+          </blockquote>
+          <p class="reviewName reviewNameSpecial">- Jenni Pulli</p>
+        </div>
+        <h5 class="reviewSlogan">Making life sweeter, one scoop at a time!</h5>
+        <img
+          class="reviewCircleEffect"
+          src="./assets/icons/circle-effect-mobile.svg"
+          alt="Moon icon"
+        />
+      </section>
     </main>
 
+    <!-- footer -->
     <footer>
-      <!-- footer -->
       <img
         src="./assets/icons/amorella-logo.svg"
         alt="Amorella logo"
         class="footerAmorellaLogo"
       />
-      <p class="footerContactText" id="contactUs">Contact us</p>
+      <p class="footerContactText textWeightBold" id="contactUs">Contact us</p>
       <div class="footerContactContainer">
-        <svg
+        <img
           class="footerPhoneSvg"
-          width="62"
-          height="55"
-          viewBox="0 0 62 55"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M59.6288 38.5288L46.2848 33.525C45.7148 33.3124 45.0812 33.2676 44.4796 33.3974C43.8779 33.5271 43.3407 33.8243 42.9488 34.2443L37.0393 40.5616C27.765 36.7356 20.3012 30.205 15.9284 22.0902L23.1485 16.9195C23.6294 16.5773 23.9699 16.1072 24.1182 15.5805C24.2665 15.0538 24.2147 14.4992 23.9706 14.0006L18.2517 2.32497C17.9838 1.78748 17.5099 1.34864 16.9118 1.08412C16.3137 0.819595 15.6288 0.74597 14.9753 0.875939L2.58446 3.37786C1.9544 3.50517 1.39226 3.81557 0.989779 4.25842C0.587303 4.70126 0.368263 5.2504 0.368408 5.81619C0.368408 32.5555 25.1382 54.1867 55.6506 54.1867C56.2975 54.1871 56.9253 53.9955 57.4317 53.6433C57.9381 53.2912 58.293 52.7992 58.4386 52.2477L61.298 41.406C61.4456 40.8315 61.3596 40.2298 61.055 39.7047C60.7503 39.1795 60.246 38.7637 59.6288 38.5288Z"
-            fill="white"
-          />
-        </svg>
+          src="./assets/icons/phone.svg"
+          alt="Phone icon"
+        />
         <p class="footerContactPhone">+358 20 123 4567</p>
-        <svg
+        <img
           class="footerEmailSvg"
-          width="70"
-          height="53"
-          viewBox="0 0 70 53"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M68.0612 17.5384C68.5868 17.1123 69.3684 17.5109 69.3684 18.1844V46.2926C69.3684 49.9349 66.4709 52.8901 62.8997 52.8901H6.83716C3.26587 52.8901 0.368408 49.9349 0.368408 46.2926V18.1982C0.368408 17.5109 1.13657 17.1261 1.67563 17.5522C4.69438 19.9437 8.69692 22.9814 22.443 33.1663C25.2866 35.283 30.0842 39.7363 34.8684 39.7088C39.6795 39.75 44.5715 35.2005 47.3073 33.1663C61.0534 22.9814 65.0424 19.93 68.0612 17.5384ZM34.8684 35.2967C37.995 35.3517 42.4961 31.2832 44.7602 29.6064C62.6436 16.3701 64.0047 15.2155 68.1286 11.9168C68.9102 11.2983 69.3684 10.3361 69.3684 9.31901V6.70749C69.3684 3.06512 66.4709 0.109985 62.8997 0.109985H6.83716C3.26587 0.109985 0.368408 3.06512 0.368408 6.70749V9.31901C0.368408 10.3361 0.826611 11.2845 1.60825 11.9168C5.73208 15.2018 7.09321 16.3701 24.9766 29.6064C27.2407 31.2832 31.7418 35.3517 34.8684 35.2967Z"
-            fill="white"
-          />
-        </svg>
+          src="./assets/icons/email.svg"
+          alt="Email icon"
+        />
         <p class="footerContactEmail">info@amorella.com</p>
-        <svg
+        <img
           class="footerLocationSvg"
-          width="45"
-          height="61"
-          viewBox="0 0 45 61"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M22.9758 0.5C10.848 0.5 0.977544 10.3744 0.977539 22.5021C0.977531 43.8417 21.7374 60.0644 21.7374 60.0644C22.4667 60.6452 23.5005 60.6452 24.2298 60.0644C24.2298 60.0644 44.9936 43.8417 44.9935 22.5021C44.9935 10.3744 35.1035 0.5 22.9758 0.5ZM22.9758 12.5051C28.4754 12.5051 32.9884 17.0025 32.9885 22.5021C32.9885 28.0019 28.4755 32.5109 22.9758 32.5109C17.4761 32.5109 12.9787 28.0019 12.9787 22.5021C12.9787 17.0025 17.4761 12.5051 22.9758 12.5051Z"
-            fill="white"
-          />
-        </svg>
+          src="./assets/icons/location.svg"
+          alt="Location icon"
+        />
         <p class="footerContactLocation">Koivukuja 4 0010, Helsinki</p>
       </div>
 
       <div class="footerSocialsContainer">
-        <p class="footerSocialsText">Follow us</p>
+        <p class="footerSocialsText textWeightBold">Follow us</p>
         <img
           class="footerFacebookImg"
           src="./assets/icons/facebook.svg"
@@ -165,10 +333,18 @@
       <div class="footerSubscriptionContainer">
         <input
           class="footerSubscriptionInput"
+          id="footerSubscriptionInput"
           type="email"
           placeholder="Your e-mail"
+          value=""
         />
-        <button class="footerSubscriptionBtn">Subscribe</button>
+        <button
+          class="footerSubscriptionBtn"
+          id="footerSubscriptionBtn"
+          disabled
+        >
+          Subscribe
+        </button>
       </div>
       <span class="footerDecorativeLine"></span>
       <p class="footerLanguageSelector">En | Fi</p>
