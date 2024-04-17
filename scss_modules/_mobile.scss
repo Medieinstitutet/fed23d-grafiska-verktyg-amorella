@@ -163,7 +163,7 @@ section.homeSection {
       position: absolute;
       font-size: 3.5rem;
       margin: 0;
-      right: -15px;
+      right: -20px;
       top: -25px;
       color: $yellowColor;
       -webkit-text-stroke-width: 1px;
@@ -270,7 +270,7 @@ section.about {
   flex-direction: column;
   width: 100%;
   height: fit-content;
-  background-image: url("../assets/images/middle/middle_small.webp");
+  background-image: url("assets/images/middle/middle_small.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -498,10 +498,10 @@ section.customerReview {
     margin-bottom: 50px;
   }
   .reviewContainer {
-    background-image: url(../assets/icons/talkBubbleLeft.svg);
+    background-image: url("assets/icons/talkBubbleLeft.svg");
   }
   .reviewContainerRight {
-    background-image: url(../assets/icons/talkBubbleRight.svg);
+    background-image: url("assets/icons/talkBubbleRight.svg");
   }
   .reviewStarsContainer {
     display: flex;
@@ -526,6 +526,12 @@ section.customerReview {
     color: $hoverColor;
     max-width: 360px;
     padding-top: 40px;
+  }
+  .reviewCircleEffect {
+    position: absolute;
+    right: 0;
+    z-index: -2;
+    top: 3718px;
   }
 }
 
@@ -608,7 +614,7 @@ footer {
   grid-row: auto;
   grid-template-columns: subgrid;
   row-gap: 20px;
-  background-image: url(../assets/images/footer/footer_mobile.webp);
+  background-image: url(assets/images/footer/footer_mobile.webp);
   background-size: cover;
   width: 100vw;
   bottom: 0;
