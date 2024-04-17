@@ -496,6 +496,7 @@ section.about {
 /* customer reviews */
 .customerReview {
   padding-top: 150px;
+  position: relative;
   .customerReviewHeading,
   .reviewSlogan {
     text-align: center;
@@ -548,7 +549,7 @@ section.about {
     position: absolute;
     right: 0;
     z-index: -2;
-    top: 3718px;
+    top: 955px;
   }
 }
 
