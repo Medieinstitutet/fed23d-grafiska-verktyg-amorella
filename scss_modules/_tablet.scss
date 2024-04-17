@@ -9,6 +9,16 @@ body {
 /* header */
 
 header {
+  .offScreenMenu {
+    top: 0;
+    position: relative;
+    border: none;
+  }
+  .offScreenMenu ul {
+  }
+  .offScreenMenu li {
+  }
+
   nav {
     display: none;
   }
