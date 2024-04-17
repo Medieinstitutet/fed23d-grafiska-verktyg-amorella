@@ -21,6 +21,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   ScrollTrigger.create({
+    trigger: document.querySelector("#about"),
+    start: "top 40%",
+    end: "bottom 40%",
+    toggleClass: { targets: ".navAbout", className: "selected" },
+  });
+
+  ScrollTrigger.create({
+    trigger: document.querySelector("#flavourSection"),
+    start: "top 40%",
+    end: "bottom 40%",
+    toggleClass: { targets: ".navFlavours", className: "selected" },
+  });
+
+  ScrollTrigger.create({
     trigger: document.querySelector("#contactUs"),
     start: "top 40%",
     end: "bottom 40%",
