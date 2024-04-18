@@ -4,6 +4,9 @@
 body {
   grid-template-columns: repeat(8, minmax(0, 1fr));
   gap: 25px;
+  main {
+    grid-column: 1 / span 8;
+  }
 }
 
 /* header */
@@ -42,6 +45,181 @@ header {
 }
 
 /* home */
+section.homeSection {
+  background-image: url("assets/images/Landing.webp");
+  width: 100%;
+  height: 1037px;
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  margin-top: 74px;
+
+  .homeHeadline {
+    color: $primaryColor;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    // font-size: 42px;
+    max-width: 680px;
+    margin: auto;
+    position: relative;
+
+    h3 {
+      font-size: 2.62rem;
+      // padding-top: 300px;
+      padding: 300px 25px 0 40px;
+      position: relative;
+      line-height: 40px;
+      z-index: 2;
+      // max-width: 650px;
+    }
+
+    .chewingGum1,
+    .chewingGum3,
+    .chewingGum4,
+    .chewingGum5,
+    .chewingGum6,
+    .chewingGum7 {
+      z-index: 1;
+      position: absolute;
+    }
+
+    .chewingGum1 {
+      width: 75.71px;
+      height: 62.23px;
+      top: 285px;
+      left: 8px;
+    }
+
+    .chewingGum2 {
+      width: 44.16px;
+      height: 36.46px;
+      top: -190px;
+      left: 35px;
+      z-index: 0;
+    }
+
+    .chewingGum3 {
+      width: 44.16px;
+      height: 36.46px;
+      top: 268px;
+      left: 160px;
+    }
+    .chewingGum4 {
+      width: 53.29px;
+      height: 44px;
+      top: 385px;
+      left: 97px;
+    }
+    .chewingGum5 {
+      width: 51px;
+      height: 42px;
+      top: 397px;
+      left: 255px;
+    }
+    .chewingGum6 {
+      width: 34px;
+      height: 28px;
+      top: 440px;
+      left: 163px;
+    }
+    .chewingGum7 {
+      width: 62px;
+      height: 51px;
+      top: 490px;
+      left: 100px;
+    }
+  }
+
+  .newIcecreamArticle {
+    margin: 0;
+    background-color: unset;
+    border: unset;
+
+    .newHeaderWrapper {
+      transform: rotate(-15.64deg);
+      z-index: 2;
+      position: relative;
+
+      .newIcecreamArticleHeader {
+        left: 24px;
+        -webkit-text-stroke-width: 3px;
+        letter-spacing: -1px;
+        top: 90px;
+        left: 85px;
+        font-size: 2.62rem;
+      }
+
+      .homeHeader {
+        color: $tertiaryColor;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        letter-spacing: -1px;
+        padding: 0;
+        padding-top: 15px;
+        top: 120px;
+        left: 220px;
+        font-size: 2rem;
+        text-align: left;
+      }
+    }
+
+    .homeStarBg {
+      z-index: 0;
+      transform: rotate(38.2deg);
+      width: 331.38px;
+      height: 295.59px;
+      left: 30px;
+      top: 20px;
+    }
+
+    .newIcecreamBtn {
+      top: 185px;
+      left: 115px;
+      position: absolute;
+      z-index: 2;
+    }
+    .chewingGum12 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 161px;
+      left: 275px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum11 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 171px;
+      left: 305px;
+      position: absolute;
+      z-index: 1;
+    }
+    .chewingGum10 {
+      height: 36.46px;
+      width: 44.16px;
+      top: 111px;
+      left: 85px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum9 {
+      height: 119.6px;
+      width: 145.1px;
+      top: 160px;
+      left: 71px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum8 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 130px;
+      left: 65px;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
 /* about */
 /* flavour */
 /* customer reviews */
