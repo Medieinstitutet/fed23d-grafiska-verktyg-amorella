@@ -17,12 +17,10 @@ body {
 section.flavourSection {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  // grid-template-rows: repeat(3, minmax(0, 1fr));
   gap: 40px 0;
   .flavourHeading {
     font-size: 3.5rem;
     grid-column: 1 / span 12;
-    // grid-row: 1 / span 1;
     text-align: center;
     margin: 0;
     margin-top: 50px;
@@ -30,7 +28,6 @@ section.flavourSection {
 
   .newIcecreamArticle {
     grid-column: 6 / span 2;
-    // margin-top: 120px;
 
     .newIcecreamArticleHeader {
       position: absolute;
@@ -111,7 +108,10 @@ section.flavourSection {
     margin: 0;
     grid-column: 9 / span 2;
     margin-top: 250px;
-    margin-left: 70px;
+
+    .pistachioHeader {
+      color: $yellowColor;
+    }
   }
 }
 /* customer reviews */
