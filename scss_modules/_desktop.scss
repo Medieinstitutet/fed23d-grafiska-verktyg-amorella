@@ -13,5 +13,32 @@ body {
 /* flavour */
 /* customer reviews */
 /* cookies pop-up */
+dialog.cookieDialog {
+  .cookieHeader {
+    margin-bottom: 15px;
+  }
+  .cookieBody {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    p {
+      margin: 0;
+      text-align: center;
+    }
+    .cookieBodyBtnContainer {
+      flex-direction: row;
+      height: fit-content;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+  .cookieFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+}
 /* footer */
 /* contact */
