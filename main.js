@@ -138,20 +138,20 @@ body.append(cookieDialog);
 
 /* Change HTML layout depending on screensize */
 /* Initial loading check. */
-whatSizeIsWindow()
+whatSizeIsWindow();
 /* Whenever the user changes the window. */
 window.onresize = function () {
-  whatSizeIsWindow()
+  whatSizeIsWindow();
 };
 
 /* Check windowsize, depending on size call on different HTML generator */
 function whatSizeIsWindow() {
-  const width = window.innerWidth
+  const width = window.innerWidth;
   console.log(width);
   if (width > 640) {
-    htmlVersionTwo()
+    htmlVersionTwo();
   } else {
-    htmlVersionOne()
+    htmlVersionOne();
   }
 }
 
@@ -432,7 +432,7 @@ function htmlVersionTwo() {
           every bite.
         </p>
       </article>
-      <svg
+      <svg class="aboutImg1"
         width="633"
         height="453"
         viewBox="0 0 633 453"
@@ -445,7 +445,7 @@ function htmlVersionTwo() {
           fill="#EB5B98"
         />
       </svg>
-      <svg
+      <svg class="aboutImg2"
         width="98"
         height="38"
         viewBox="0 0 98 38"
@@ -458,7 +458,7 @@ function htmlVersionTwo() {
           fill="#EB5B98"
         />
       </svg>
-      <svg
+      <svg class="aboutImg3"
         width="65"
         height="45"
         viewBox="0 0 65 45"

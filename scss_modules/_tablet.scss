@@ -187,6 +187,54 @@ section.homeSection {
   }
 }
 /* about */
+section.about {
+  background-size: cover;
+  background-position: center;
+
+  height: 1263px;
+  width: 100%;
+  position: relative;
+
+  div.aboutImgContainer {
+    top: 230px;
+    img {
+      width: 360px;
+      height: 360px;
+    }
+  }
+
+  .aboutSplats {
+    top: 150px;
+    position: relative;
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    article {
+      position: absolute;
+      width: 411px;
+      top: 50px;
+      color: white;
+    }
+
+    .aboutImg2 {
+      width: 98px;
+      height: 38px;
+      right: 150px;
+      position: absolute;
+      bottom: -20px;
+    }
+
+    .aboutImg3 {
+      width: 65px;
+      height: 45px;
+      position: absolute;
+      bottom: 0;
+      left: 200px;
+    }
+  }
+}
 /* flavour */
 /* customer reviews */
 /* cookies pop-up */
