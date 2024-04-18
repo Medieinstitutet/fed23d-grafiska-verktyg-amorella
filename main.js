@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   ScrollTrigger.create({
-    trigger: document.querySelector("footer"),
+    trigger: document.querySelector("#reviewContainer"),
     start: "top 40%",
     end: "bottom 40%",
     toggleClass: { targets: ".navContact", className: "selected" },
