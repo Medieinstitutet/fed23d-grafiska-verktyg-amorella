@@ -353,6 +353,12 @@ section.about {
       }
     }
   }
+
+  .newIcecreamArticle:hover .newIcecreamHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 20px $primaryColor;
+    font-size: 2.2rem;
+  }
   .blueberryArticle {
     margin: 0;
     grid-column: 2 / span 3;
