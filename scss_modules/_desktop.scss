@@ -91,14 +91,15 @@ section.homeSection {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    max-width: 680px;
+    width: 75vw;
     margin: auto;
     position: relative;
 
     h3 {
-      font-size: 3.7rem;
-      width: 60vw;
+      font-size: 4.2rem;
+      width: 80vw;
       right: 4rem;
+      top: -6rem;
       padding: 300px 25px 0 40px;
       position: relative;
       line-height: 65px;
@@ -122,15 +123,15 @@ section.homeSection {
     .chewingGum1 {
       width: 75.71px;
       height: 62.23px;
-      top: 285px;
-      left: 8px;
+      top: 168px;
+      left: -40px;
     }
 
     .chewingGum2 {
       width: 44.16px;
       height: 36.46px;
-      top: -190px;
-      left: 35px;
+      top: -410px;
+      left: -5px;
       z-index: 0;
     }
 
@@ -195,7 +196,7 @@ section.homeSection {
     background-color: unset;
     border: unset;
     top: -10rem;
-    left: 20 rem;
+    left: 6rem;
 
     .newHeaderWrapper {
       transform: rotate(-15.64deg);
