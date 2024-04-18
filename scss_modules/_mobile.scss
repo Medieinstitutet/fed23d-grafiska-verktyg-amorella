@@ -391,7 +391,8 @@ section.about {
   }
 
   .pistachioArticle,
-  .blueberryArticle {
+  .blueberryArticle,
+  .newIcecreamArticle {
     height: 452px;
     width: 258px;
     background-color: #fff;
@@ -402,7 +403,10 @@ section.about {
     box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.493);
 
     .pistachioImg,
-    .blueberryImg {
+    .blueberryImg,
+    .chewingGum13,
+    .chewingGum14,
+    .chewingGum15 {
       position: absolute;
       z-index: 1;
       animation: floatAnimation 3s ease-in-out infinite alternate;
@@ -432,7 +436,8 @@ section.about {
     }
 
     .pistachioHeader,
-    .blueberryHeader {
+    .blueberryHeader,
+    .newIcecreamHeader {
       position: absolute;
       top: -78px;
       left: -14px;
@@ -447,24 +452,28 @@ section.about {
     }
 
     .pistachioImgContainer,
-    .blueberryImgContainer {
+    .blueberryImgContainer,
+    .newIcecreamImgContainer {
       margin: 0;
       overflow: hidden;
       border-radius: 20px 20px 0 0;
 
       .pistachioIcecreamImg,
-      .blueberryIcecreamImg {
+      .blueberryIcecreamImg,
+      .newIcecreamImg {
         transition: 0.5s all ease-in-out;
         transform-origin: center center;
       }
       .pistachioIcecreamImg:hover,
-      .blueberryIcecreamImg:hover {
+      .blueberryIcecreamImg:hover,
+      .newIcecreamImg:hover {
         transform: scale(1.1);
       }
     }
 
     .pistachioArticleTxt,
-    .blueberryArticleTxt {
+    .blueberryArticleTxt,
+    .newIcecreamArticleTxt {
       font-size: 1rem;
       padding: 30px 0 30px 0;
       margin: 0 30px 0 30px;
