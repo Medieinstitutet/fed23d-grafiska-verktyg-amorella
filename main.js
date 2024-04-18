@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   ScrollTrigger.create({
-    trigger: document.querySelector("footer"),
+    trigger: document.querySelector("#reviewContainer"),
     start: "top 40%",
     end: "bottom 40%",
     toggleClass: { targets: ".navContact", className: "selected" },
@@ -69,7 +69,7 @@ function cookieVersion1() {
   const cookieHeader = document.createElement("div");
   const cookieBody = document.createElement("div");
   const cookieFooter = document.createElement("div");
-  cookieDialog.setAttribute("id", "cookieDialog")
+  cookieDialog.setAttribute("id", "cookieDialog");
   cookieDialog.classList.add("cookieDialog");
   cookieHeader.classList.add("cookieHeader");
   cookieBody.classList.add("cookieBody");
@@ -85,7 +85,7 @@ function cookieVersion1() {
 
   const cookieBodyHeading = document.createElement("p");
   const cookieBodyContent = document.createElement("p");
-  cookieBodyContent.setAttribute("id", "cookieBodyContent")
+  cookieBodyContent.setAttribute("id", "cookieBodyContent");
   cookieBodyHeading.textContent =
     "We believe your data is your property and support your right to privacy and transparency.";
   cookieBodyContent.innerHTML = `Select a Data Access Level to choose how we use and share your data. <br><br> 
@@ -124,7 +124,7 @@ function cookieVersion1() {
   ];
   allCookieBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
-      localStorage.setItem("cookieChoice", "made")
+      localStorage.setItem("cookieChoice", "made");
       cookieDialog.remove();
     });
   });
@@ -135,13 +135,17 @@ function cookieVersion1() {
     cookieBodyAcceptSomeBtn,
     cookieBodyAcceptAllBtn,
   );
-  cookieBody.append(cookieBodyHeading, cookieBodyContent, cookieBodyBtnContainer);
+  cookieBody.append(
+    cookieBodyHeading,
+    cookieBodyContent,
+    cookieBodyBtnContainer,
+  );
   cookieFooter.append(cookieFooterCustomize, cookieFooterPrivacyPolicy);
   cookieDialog.append(cookieHeader, cookieBody, cookieFooter);
   body.append(cookieDialog);
 }
 function cookieVersion2() {
-  const cookieBodyContent = document.getElementById("cookieBodyContent")
+  const cookieBodyContent = document.getElementById("cookieBodyContent");
   cookieBodyContent.innerHTML = `Select a Data Access Level to choose how we use and share your data. <br><br> 
   Highest level of privacy. Data accessed for necessary basic operations only.
   Data shared with 3rd parties to ensure the site is secure and works on your device.`;
@@ -158,7 +162,6 @@ function cookieChoiceMadeAlready() {
 /* Initial loading check. */
 whatSizeIsWindow();
 
-
 /* Whenever the user changes the window. */
 window.onresize = function () {
   whatSizeIsWindow();
@@ -166,35 +169,32 @@ window.onresize = function () {
 
 /* Check windowsize, depending on size call on different HTML generator */
 function whatSizeIsWindow() {
-
-
-  // Removes exsisting, open dialogs if there are any. 
+  // Removes exsisting, open dialogs if there are any.
   const cookieDialog = document.getElementById("cookieDialog");
   if (cookieDialog) {
     cookieDialog.remove();
   }
-  // Loads different html depending on screensize and if cookie popup has been dismissed before. 
-  const width = window.innerWidth
-  if ((width > 1024)) {
-    htmlVersionTwo()
+  // Loads different html depending on screensize and if cookie popup has been dismissed before.
+  const width = window.innerWidth;
+  if (width > 1024) {
+    htmlVersionTwo();
     if (!cookieChoiceMadeAlready()) {
-      cookieVersion1()
-      cookieVersion2()
+      cookieVersion1();
+      cookieVersion2();
     }
     return;
   } else if (width > 640) {
-    htmlVersionTwo()
+    htmlVersionTwo();
     if (!cookieChoiceMadeAlready()) {
-      cookieVersion1()
+      cookieVersion1();
     }
     return;
   } else {
-    htmlVersionOne()
+    htmlVersionOne();
     if (!cookieChoiceMadeAlready()) {
-      cookieVersion1()
+      cookieVersion1();
     }
     return;
-
   }
 }
 
@@ -601,4 +601,3 @@ function htmlVersionTwo() {
     </article>
   `;
 }
-
