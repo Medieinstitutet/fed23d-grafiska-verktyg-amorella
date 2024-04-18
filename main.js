@@ -667,6 +667,11 @@ function htmlVersionThree() {
           src="assets/icons/chewing-gum.svg"
           alt="chewing gum bubble"
       />
+      <img
+          class="chewingGum20"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
     </article>
 
     <article class="newIcecreamArticle">

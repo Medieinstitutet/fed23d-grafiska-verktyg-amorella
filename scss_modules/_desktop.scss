@@ -115,7 +115,8 @@ section.homeSection {
     .chewingGum16,
     .chewingGum17,
     .chewingGum18,
-    .chewingGum19 {
+    .chewingGum19,
+    .chewingGum20 {
       z-index: 1;
       position: absolute;
     }
@@ -154,10 +155,10 @@ section.homeSection {
       left: 430px;
     }
     .chewingGum6 {
-      width: 34px;
-      height: 28px;
-      top: 440px;
-      left: 163px;
+      width: 55px;
+      height: 40px;
+      top: 310px;
+      left: 290px;
     }
     .chewingGum7 {
       width: 62px;
@@ -169,25 +170,31 @@ section.homeSection {
       width: 62px;
       height: 51px;
       top: 500px;
-      left: 110px;
+      left: 200px;
     }
     .chewingGum17 {
       width: 62px;
       height: 51px;
       top: 510px;
-      left: 120px;
+      left: 220px;
     }
     .chewingGum18 {
       width: 62px;
       height: 51px;
       top: 520px;
-      left: 130px;
+      left: 230px;
     }
     .chewingGum19 {
       width: 62px;
       height: 51px;
       top: 530px;
-      left: 140px;
+      left: 240px;
+    }
+    .chewingGum20 {
+      width: 62px;
+      height: 51px;
+      top: 540px;
+      left: 340px;
     }
   }
 
