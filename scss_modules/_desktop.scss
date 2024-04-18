@@ -11,6 +11,11 @@ body {
 
 header {
   top: 0;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-left: 0;
+  }
   nav {
     display: none;
   }
