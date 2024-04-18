@@ -38,7 +38,7 @@ header {
   }
   .offScreenMenu li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 30px;
     position: relative;
   }
   ul li:not(:last-child)::after {
@@ -49,6 +49,14 @@ header {
     right: 0px;
     top: 0;
     height: 100%;
+  }
+
+  .menuPartOne li:last-child {
+    margin-left: -5px;
+  }
+
+  .menuPartTwo li:last-child {
+    margin-left: -5px;
   }
 
   .menuPartOne {
