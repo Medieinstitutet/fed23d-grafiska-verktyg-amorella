@@ -45,6 +45,157 @@ header {
 /* about */
 /* flavour */
 /* customer reviews */
+.customerReview {
+  width: 100vw;
+  height: 1200px;
+  .reviewContainer,
+  .reviewContainerRight {
+    position: absolute;
+    width: 300px;
+  }
+  :nth-child(2) {
+    left: 20%;
+  }
+  :nth-child(3) {
+    right: 10%;
+    top: 440px;
+  }
+  :nth-child(4) {
+    left: 15%;
+    top: 630px;
+  }
+  .reviewSlogan {
+    position: absolute;
+    top: 1000px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    max-width: 800px;
+    padding-inline: 10%;
+  }
+  .reviewCircleEffect {
+    top: 750px;
+  }
+}
 /* cookies pop-up */
+dialog.cookieDialog {
+  .cookieHeader {
+    margin-bottom: 15px;
+  }
+  .cookieBody {
+    p {
+      margin: 0;
+      text-align: center;
+    }
+    .cookieBodyBtnContainer {
+      flex-direction: row;
+      height: fit-content;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      justify-content: space-between;
+    }
+  }
+  .cookieFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+}
 /* footer */
+footer {
+  grid-column: 1 / 9;
+  background-image: url(assets/images/footer/footer_tablet.webp);
+  padding-inline: 20px;
+  row-gap: 5px;
+
+  .footerAmorellaLogo,
+  .footerContactText,
+  .footerContactContainer,
+  .footerSubscriptionContainer,
+  .footerDecorativeLine,
+  .footerLanguageSelector {
+    justify-self: normal;
+    grid-column: 1 / span 2;
+  }
+  .footerAmorellaLogo {
+    width: 125px;
+    padding-top: 40px;
+  }
+  .footerContactText {
+    padding-top: 25px;
+  }
+  .footerContactContainer {
+    grid-row: 3 / span 2;
+    grid-template-columns: 20% 80%;
+    row-gap: 16px;
+    align-items: normal;
+    margin-bottom: 0;
+    margin-top: 20px;
+    .footerPhoneSvg,
+    .footerEmailSvg,
+    .footerLocationSvg {
+      justify-self: normal;
+    }
+    .footerContactPhone {
+      width: 130px;
+    }
+    .footerContactLocation {
+      width: 111px;
+    }
+  }
+
+  .footerSocialsContainer {
+    justify-self: normal;
+    grid-column: 7 / span 2;
+    grid-row: 2 / span 2;
+    .footerFacebookImg,
+    .footerTwitterImg,
+    .footerInstagramImg {
+      margin-left: 0;
+      padding-top: 0;
+    }
+    .footerSocialsText {
+      justify-self: left;
+      padding-top: 25px;
+      padding-bottom: 0;
+      padding-bottom: 0;
+      grid-column: span 3;
+      font-size: 20px;
+    }
+  }
+
+  .footerSubscriptionContainer {
+    grid-column: 5 / span 4; //
+    grid-row: 4; //
+    width: 42vw; //
+    margin-block: 0;
+  }
+
+  .footerDecorativeLine {
+    margin-top: 50px;
+  }
+
+  .footerCookiePolicy,
+  .footerCopyright {
+    justify-self: center;
+    grid-column: 4 / span 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerLanguageSelector {
+    grid-row: 6 / span 2;
+    align-self: center;
+  }
+
+  .footerCookiePolicy {
+    padding-top: 16px;
+    grid-row: 6;
+  }
+  .footerCopyright {
+    grid-row: 7;
+    padding-bottom: 20px;
+  }
+}
 /* contact */

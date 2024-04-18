@@ -550,7 +550,7 @@ section.about {
 }
 
 /* cookies pop-up */
-/* dialog.cookieDialog {
+dialog.cookieDialog {
   z-index: 900;
   display: flex;
   flex-direction: column;
@@ -576,6 +576,7 @@ section.about {
       border: none;
       height: auto;
       aspect-ratio: 1;
+      padding-right: 20px;
     }
   }
   .cookieBody {
@@ -619,8 +620,7 @@ section.about {
     justify-content: space-between;
     padding: 20px;
   }
-
-} */
+}
 /* footer - contact */
 footer {
   display: grid;
