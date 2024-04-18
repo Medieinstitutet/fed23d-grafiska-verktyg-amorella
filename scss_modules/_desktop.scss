@@ -17,6 +17,8 @@ header {
   align-items: center;
   justify-content: center;
   box-shadow: 1px 3px 3px grey;
+  position: fixed;
+
   img {
     margin-left: 0;
     position: relative;
@@ -48,19 +50,19 @@ header {
     top: 0;
     height: 100%;
   }
-  .menuPartOne,
-  .menuPartTwo {
+
+  .menuPartOne {
+    left: 5rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
 
-  .menuPartOne {
-    left: 5rem;
-  }
-
   .menuPartTwo {
     right: 5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   nav {
