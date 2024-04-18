@@ -79,8 +79,104 @@ header {
 }
 /* home */
 /* about */
+section.about {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("assets/images/middle/middle_large.webp");
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  height: 650px;
+
+  div.aboutImgContainer {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 0;
+    img {
+      position: static;
+      width: 360px;
+      height: 360px;
+    }
+  }
+  .aboutSplats {
+    position: relative;
+    height: fit-content;
+    article {
+      position: absolute;
+      height: fit-content;
+      width: 411px;
+      top: 50px;
+      color: white;
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+    .aboutImg2 {
+      position: absolute;
+      bottom: 4%;
+      left: 65%;
+    }
+    .aboutImg3 {
+      position: absolute;
+      bottom: 6%;
+      left: 25%;
+    }
+  }
+}
 /* flavour */
 /* customer reviews */
+.customerReview {
+  height: 1030px;
+  .customerReviewHeading,
+  .reviewSlogan {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+  }
+
+  .customerReviewHeading {
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+    padding-bottom: 100px;
+  }
+  .reviewContainer,
+  .reviewContainerRight {
+    position: absolute;
+    width: 329px;
+  }
+  :nth-child(2) {
+    left: 11%;
+  }
+  :nth-child(3) {
+    right: 57%;
+    top: 49%;
+  }
+  :nth-child(4) {
+    left: 9%;
+    top: 69%;
+  }
+  .reviewSlogan {
+    position: absolute;
+    top: 750px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    max-width: 600px;
+    margin-left: 55%;
+    margin-right: 0;
+  }
+  .reviewCircleEffect {
+    top: 400px;
+  }
+}
+
 /* cookies pop-up */
 dialog.cookieDialog {
   .cookieHeader {
