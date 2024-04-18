@@ -363,6 +363,7 @@ section.about {
     grid-column: 2 / span 3;
     grid-row: 3 / span 2;
     margin-top: 150px;
+    justify-self: center;
   }
   .pistachioArticle {
     margin: 0;
@@ -370,6 +371,7 @@ section.about {
     grid-row: 3 / span 2;
     margin-top: 150px;
     margin-left: 70px;
+    justify-self: center;
   }
 }
 /* customer reviews */
