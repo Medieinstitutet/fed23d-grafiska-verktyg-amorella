@@ -11,6 +11,38 @@ body {
 /* about */
 /* flavour */
 /* customer reviews */
+.customerReview {
+  width: 100vw;
+  height: 1200px;
+  .reviewContainer,
+  .reviewContainerRight {
+    position: absolute;
+    width: 300px;
+  }
+  :nth-child(2) {
+    left: 20%;
+  }
+  :nth-child(3) {
+    right: 10%;
+    top: 440px;
+  }
+  :nth-child(4) {
+    left: 15%;
+    top: 630px;
+  }
+  .reviewSlogan {
+    position: absolute;
+    top: 1000px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    max-width: 800px;
+    padding-inline: 10%;
+  }
+  .reviewCircleEffect {
+    top: 750px;
+  }
+}
 /* cookies pop-up */
 /* footer */
 footer {
