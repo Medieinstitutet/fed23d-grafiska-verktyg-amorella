@@ -206,4 +206,111 @@ dialog.cookieDialog {
   }
 }
 /* footer */
+footer {
+  grid-column: 1 / span 12;
+  background-image: url(assets/images/footer/footer_desktop.webp);
+  padding-inline: 20px;
+  row-gap: 5px;
+
+  .footerAmorellaLogo,
+  .footerLanguageSelector {
+    justify-self: normal;
+    grid-column: 1 / span 12;
+  }
+  .footerAmorellaLogo {
+    width: 125px;
+    padding-top: 90px;
+    grid-row: 1;
+  }
+  .footerContactText {
+    padding-top: 80px;
+    justify-self: center;
+    align-self: end;
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 2;
+  }
+  .footerContactContainer {
+    justify-self: right;
+    grid-column: 5 / span 3;
+    grid-row: 3 / span 2;
+    grid-template-columns: 20% 80%;
+    row-gap: 16px;
+    align-items: normal;
+    margin-bottom: 0;
+    margin-top: 20px;
+    .footerPhoneSvg,
+    .footerEmailSvg,
+    .footerLocationSvg {
+      justify-self: normal;
+    }
+    .footerContactPhone {
+      width: 130px;
+    }
+    .footerContactLocation {
+      width: 111px;
+    }
+  }
+
+  .footerSocialsContainer {
+    justify-self: normal;
+    align-self: end;
+    grid-column: 10 / span 1;
+    grid-row: 3 / span 2;
+    .footerFacebookImg,
+    .footerTwitterImg,
+    .footerInstagramImg {
+      margin-left: 0;
+      padding-top: 0;
+    }
+    .footerSocialsText {
+      justify-self: left;
+      padding-top: 25px;
+      padding-bottom: 10px;
+      grid-column: span 3;
+      font-size: 20px;
+    }
+  }
+
+  .footerSubscriptionContainer {
+    grid-column: 10 / span 4; //
+    grid-row: 1; //
+    width: 20vw; //
+    margin-block: 0;
+    justify-self: left;
+    margin-top: 80px;
+  }
+
+  .footerDecorativeLine {
+    margin-top: 35px;
+    width: 95vw;
+    grid-column: 1 / span 12;
+    grid-row: 6;
+  }
+
+  .footerCookiePolicy,
+  .footerCopyright
+  //.footerContactContainer,
+  //.footerContactText
+  {
+    justify-self: center;
+    grid-column: 5 / span 4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerLanguageSelector {
+    grid-row: 7 / span 2;
+    align-self: center;
+  }
+
+  .footerCookiePolicy {
+    padding-top: 16px;
+    grid-row: 7;
+  }
+  .footerCopyright {
+    grid-row: 8;
+    padding-bottom: 20px;
+  }
+}
+
 /* contact */
