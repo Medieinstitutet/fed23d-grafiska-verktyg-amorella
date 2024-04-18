@@ -65,6 +65,52 @@ section.about {
 }
 /* flavour */
 /* customer reviews */
+.customerReview {
+  height: 1030px;
+  .customerReviewHeading,
+  .reviewSlogan {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+  }
+
+  .customerReviewHeading {
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+    padding-bottom: 100px;
+  }
+  .reviewContainer,
+  .reviewContainerRight {
+    position: absolute;
+    width: 329px;
+  }
+  :nth-child(2) {
+    left: 11%;
+  }
+  :nth-child(3) {
+    right: 57%;
+    top: 49%;
+  }
+  :nth-child(4) {
+    left: 9%;
+    top: 69%;
+  }
+  .reviewSlogan {
+    position: absolute;
+    top: 750px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    max-width: 600px;
+    margin-left: 55%;
+    margin-right: 0;
+  }
+  .reviewCircleEffect {
+    top: 400px;
+  }
+}
+
 /* cookies pop-up */
 dialog.cookieDialog {
   .cookieHeader {
