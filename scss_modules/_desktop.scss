@@ -161,10 +161,10 @@ section.homeSection {
       left: 290px;
     }
     .chewingGum7 {
-      width: 62px;
-      height: 51px;
-      top: 490px;
-      left: 100px;
+      width: 50px;
+      height: 41px;
+      top: 480px;
+      left: 170px;
     }
     .chewingGum16 {
       width: 102px;
@@ -202,7 +202,7 @@ section.homeSection {
     margin: 0;
     background-color: unset;
     border: unset;
-    top: -10rem;
+    top: -16rem;
     left: 6rem;
 
     .newHeaderWrapper {
@@ -214,7 +214,7 @@ section.homeSection {
         left: 24px;
         -webkit-text-stroke-width: 3px;
         letter-spacing: -1px;
-        top: 90px;
+        top: 100px;
         left: 85px;
         font-size: 2.62rem;
       }
@@ -265,21 +265,30 @@ section.homeSection {
       z-index: 1;
     }
     .chewingGum10 {
-      height: 36.46px;
-      width: 44.16px;
+      height: 45px;
+      width: 52px;
       top: 111px;
       left: 85px;
       position: absolute;
       z-index: 0;
     }
     .chewingGum9 {
-      height: 119.6px;
+      height: 100px;
       width: 145.1px;
-      top: 160px;
-      left: 71px;
+      top: 180px;
+      left: 75px;
       position: absolute;
       z-index: 0;
     }
+    .chewingGum8 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 140px;
+      left: 65px;
+      position: absolute;
+      z-index: 1;
+    }
+
     // .chewingGum8 {
     //   height: 62.23px;
     //   width: 75.71px;
@@ -365,7 +374,7 @@ section.flavourSection {
       left: 24px;
       -webkit-text-stroke-width: 3px;
       letter-spacing: -1px;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin: 0;
       left: -30px;
       top: -45px;
