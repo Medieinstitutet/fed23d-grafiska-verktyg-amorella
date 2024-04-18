@@ -7,6 +7,40 @@ body {
 }
 
 /* header */
+
+header {
+  .offScreenMenu {
+    top: 0;
+    position: absolute;
+    width: 40vw;
+    height: 5rem;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    right: 0.5em;
+  }
+  .offScreenMenu ul {
+    display: flex;
+  }
+  .offScreenMenu li {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+  }
+  ul li:not(:last-child)::after {
+    content: "";
+    border: 1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100%;
+  }
+  nav {
+    display: none;
+  }
+}
+
 /* home */
 /* about */
 /* flavour */

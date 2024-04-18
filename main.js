@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   ScrollTrigger.create({
-    trigger: document.querySelector("#about"),
+    trigger: document.querySelector("#aboutSection"),
     start: "top 40%",
     end: "bottom 40%",
     toggleClass: { targets: ".navAbout", className: "selected" },
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   ScrollTrigger.create({
-    trigger: document.querySelector("#contactUs"),
+    trigger: document.querySelector("footer"),
     start: "top 40%",
     end: "bottom 40%",
     toggleClass: { targets: ".navContact", className: "selected" },
@@ -156,15 +156,17 @@ function cookieChoiceMadeAlready() {
 
 /* Change HTML layout depending on screensize */
 /* Initial loading check. */
-whatSizeIsWindow()
+
+whatSizeIsWindow();
 
 /* Whenever the user changes the window. */
 window.onresize = function () {
-  whatSizeIsWindow()
+  whatSizeIsWindow();
 };
 
 /* Check windowsize, depending on size call on different HTML generator */
 function whatSizeIsWindow() {
+
   // Removes exsisting, open dialogs if there are any. 
   const cookieDialog = document.getElementById("cookieDialog");
   if (cookieDialog) {
@@ -191,6 +193,7 @@ function whatSizeIsWindow() {
       cookieVersion1()
     }
     return;
+
   }
 }
 
