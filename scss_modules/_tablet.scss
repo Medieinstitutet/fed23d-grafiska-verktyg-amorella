@@ -30,14 +30,17 @@ header {
     padding: 0 10px;
     position: relative;
   }
-  ul li:not(:last-child)::after {
+  ul li::after {
     content: "";
     border: 1px solid #e2e2e2;
     border-width: 1px 1px 0 0;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 0;
     height: 100%;
+  }
+  ul .menuPartTwo li:last-child::after {
+    border: 0px;
   }
   nav {
     display: none;
@@ -222,58 +225,157 @@ section.homeSection {
 }
 /* about */
 section.about {
+  margin-top: 0px;
   background-size: cover;
-  background-position: center;
-
-  height: 1263px;
+  height: 1300px;
   width: 100%;
-  position: relative;
-
+  position: static;
+  justify-content: center;
+  padding-bottom: 80px;
   div.aboutImgContainer {
-    top: 230px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-bottom: 50px;
     img {
+      position: static;
       width: 360px;
       height: 360px;
     }
   }
-
   .aboutSplats {
-    top: 150px;
     position: relative;
-
-    h3 {
-      margin-bottom: 20px;
-    }
-
+    width: 834px;
+    align-self: center;
     article {
       position: absolute;
       width: 411px;
       top: 50px;
       color: white;
+      h3 {
+        margin-bottom: 20px;
+      }
     }
-
     .aboutImg2 {
-      width: 98px;
-      height: 38px;
       right: 150px;
       position: absolute;
       bottom: -20px;
     }
-
     .aboutImg3 {
-      width: 65px;
-      height: 45px;
       position: absolute;
       bottom: 0;
-      left: 200px;
+      left: 28%;
     }
   }
 }
 /* flavour */
+
+.flavourSection {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+
+  gap: 40px 0;
+  .flavourHeading {
+    font-size: 2.62rem;
+    grid-column: 1 / span 8;
+    grid-row: 1 / span 1;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .newIcecreamArticle {
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 3;
+
+    .newIcecreamArticleHeader {
+      position: absolute;
+      left: 24px;
+      -webkit-text-stroke-width: 3px;
+      letter-spacing: -1px;
+      font-size: 2rem;
+      margin: 0;
+      left: -30px;
+      top: -45px;
+      color: $yellowColor;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $primaryColor;
+      text-transform: uppercase;
+      animation: colorAnimation 1s ease-in-out infinite alternate;
+      transform: skewX(-5deg);
+      z-index: 2;
+    }
+
+    @keyframes colorAnimation {
+      0% {
+        -webkit-text-stroke-color: $primaryColor;
+        color: $yellowColor;
+      }
+      100% {
+        -webkit-text-stroke-color: $yellowColor;
+        color: $primaryColor;
+      }
+    }
+
+    .chewingGum13 {
+      width: 75.71px;
+      height: 62.23px;
+      left: -40px;
+      top: -20px;
+    }
+
+    .chewingGum14 {
+      width: 44.16px;
+      height: 36.46px;
+      left: -39px;
+      top: 20px;
+      z-index: 0;
+      animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
+    }
+
+    .chewingGum15 {
+      width: 44.16px;
+      height: 36.46px;
+      right: 84px;
+      top: -45px;
+      z-index: 0;
+      animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
+    }
+
+    .newIcecreamImgContainer {
+      .newIcecreamImg {
+        height: 330px;
+        width: 330px;
+        object-fit: cover;
+        padding-right: 70px;
+      }
+    }
+  }
+
+  .newIcecreamArticle:hover .newIcecreamHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 20px $primaryColor;
+    font-size: 2.2rem;
+  }
+  .blueberryArticle {
+    margin: 0;
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 2;
+    margin-top: 150px;
+  }
+  .pistachioArticle {
+    margin: 0;
+    grid-column: 5 / span 3;
+    grid-row: 3 / span 2;
+    margin-top: 150px;
+    margin-left: 70px;
+  }
+}
 /* customer reviews */
 .customerReview {
   width: 100vw;
-  height: 1200px;
+  height: 1350px;
   .reviewContainer,
   .reviewContainerRight {
     position: absolute;
@@ -292,15 +394,16 @@ section.about {
   }
   .reviewSlogan {
     position: absolute;
-    top: 1000px;
+    top: 1100px;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 2.8px;
-    max-width: 800px;
-    padding-inline: 10%;
+    max-width: 700px;
+    margin-left: 8%;
+    margin-right: 2%;
   }
   .reviewCircleEffect {
-    top: 750px;
+    top: 900px;
   }
 }
 /* cookies pop-up */

@@ -539,18 +539,20 @@ function htmlVersionTwo() {
         alt="chewing gum bubble"
       />
 
-      <h5 class="pistachioHeader">Pistachio gelatio</h5>
+      <h5 class="newIcecreamHeader">Bubblegum bliss</h5>
       <figure class="newIcecreamImgContainer">
         <img
           class="newIcecreamImg"
-          src="/assets/images/ice-creams/bubblegum_mobile.webp"
+          src="/assets/images/ice-creams/bubblegum_table.webp"
           alt="pink bubblegum flavour ice cream"
           width="200"
           height="220"
         />
       </figure>
       <p class="newIcecreamArticleTxt">
-        Dive into a swirl of joy with Amorella's newest delight: Bubblegum Bliss!
+        Each scoop whispers tales 
+of creamy bliss and 
+nutty perfection!
       </p>
     </article>
 
