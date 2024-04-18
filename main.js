@@ -610,7 +610,7 @@ function htmlVersionThree() {
   homeSection.innerHTML = `
     <article class="homeHeadline">
       <h3>
-        Join us on a journey<br> of indulgence and happiness, one scoop at a time!
+        Join us on a journey<br> of indulgence and happiness, one bubble at a time!
       </h3>
       <img
           class="chewingGum1"
