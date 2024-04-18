@@ -30,14 +30,17 @@ header {
     padding: 0 10px;
     position: relative;
   }
-  ul li:not(:last-child)::after {
+  ul li::after {
     content: "";
     border: 1px solid #e2e2e2;
     border-width: 1px 1px 0 0;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 0;
     height: 100%;
+  }
+  ul .menuPartTwo li:last-child::after {
+    border: 0px;
   }
   nav {
     display: none;
@@ -222,50 +225,46 @@ section.homeSection {
 }
 /* about */
 section.about {
+  margin-top: 0px;
   background-size: cover;
-  background-position: center;
-
-  height: 1263px;
+  height: 1300px;
   width: 100%;
-  position: relative;
-
+  position: static;
+  justify-content: center;
+  padding-bottom: 80px;
   div.aboutImgContainer {
-    top: 230px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-bottom: 50px;
     img {
+      position: static;
       width: 360px;
       height: 360px;
     }
   }
-
   .aboutSplats {
-    top: 150px;
     position: relative;
-
-    h3 {
-      margin-bottom: 20px;
-    }
-
+    width: 834px;
+    align-self: center;
     article {
       position: absolute;
       width: 411px;
       top: 50px;
       color: white;
+      h3 {
+        margin-bottom: 20px;
+      }
     }
-
     .aboutImg2 {
-      width: 98px;
-      height: 38px;
       right: 150px;
       position: absolute;
       bottom: -20px;
     }
-
     .aboutImg3 {
-      width: 65px;
-      height: 45px;
       position: absolute;
       bottom: 0;
-      left: 200px;
+      left: 28%;
     }
   }
 }
