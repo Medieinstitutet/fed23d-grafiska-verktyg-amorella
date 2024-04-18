@@ -30,7 +30,7 @@ header {
     padding: 0 10px;
     position: relative;
   }
-  ul li:not(:last-child)::after {
+  ul li::after {
     content: "";
     border: 1px solid #e2e2e2;
     border-width: 1px 1px 0 0;
@@ -38,6 +38,9 @@ header {
     right: 0px;
     top: 0;
     height: 100%;
+  }
+  ul .menuPartTwo li:last-child::after {
+    border: 0px;
   }
   nav {
     display: none;
