@@ -4,7 +4,6 @@
 body {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 16px;
-  margin-block: 20px;
   main {
     grid-column: 1 / span 12;
   }
@@ -83,6 +82,7 @@ section.homeSection {
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 93% center;
   margin-top: 74px;
 
@@ -337,7 +337,9 @@ section.about {
 section.flavourSection {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 40px 0;
+  gap: 0;
+  min-height: auto;
+  column-gap: 80px;
   .flavourHeading {
     font-size: 3.5rem;
     grid-column: 1 / span 12;
@@ -347,7 +349,8 @@ section.flavourSection {
   }
 
   .newIcecreamArticle {
-    grid-column: 6 / span 2;
+    grid-column: 5 / span 4;
+    justify-self: center;
 
     .newIcecreamArticleHeader {
       position: absolute;
@@ -366,7 +369,6 @@ section.flavourSection {
       transform: skewX(-5deg);
       z-index: 2;
     }
-
     @keyframes colorAnimation {
       0% {
         -webkit-text-stroke-color: $primaryColor;
@@ -377,14 +379,12 @@ section.flavourSection {
         color: $primaryColor;
       }
     }
-
     .chewingGum13 {
       width: 75.71px;
       height: 62.23px;
       left: -40px;
       top: -20px;
     }
-
     .chewingGum14 {
       width: 44.16px;
       height: 36.46px;
@@ -393,7 +393,6 @@ section.flavourSection {
       z-index: 0;
       animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
     }
-
     .chewingGum15 {
       width: 44.16px;
       height: 36.46px;
@@ -402,7 +401,6 @@ section.flavourSection {
       z-index: 0;
       animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
     }
-
     .newIcecreamImgContainer {
       .newIcecreamImg {
         height: 330px;
@@ -423,12 +421,13 @@ section.flavourSection {
     grid-column: 3 / span 2;
     grid-row: 2 / span 2;
     margin-top: 250px;
+    justify-self: center;
   }
   .pistachioArticle {
     margin: 0;
     grid-column: 9 / span 2;
     margin-top: 250px;
-
+    justify-self: center;
     .pistachioHeader {
       color: $yellowColor;
     }
@@ -449,6 +448,7 @@ section.flavourSection {
     margin: 0;
     padding-left: 5%;
     padding-bottom: 100px;
+    text-wrap: nowrap;
   }
   .reviewContainer,
   .reviewContainerRight {
@@ -460,11 +460,11 @@ section.flavourSection {
   }
   :nth-child(3) {
     right: 57%;
-    top: 49%;
+    top: 50%;
   }
   :nth-child(4) {
     left: 9%;
-    top: 69%;
+    top: 70%;
   }
   .reviewSlogan {
     position: absolute;
@@ -477,7 +477,7 @@ section.flavourSection {
     margin-right: 0;
   }
   .reviewCircleEffect {
-    top: 400px;
+    top: 420px;
   }
 }
 
@@ -532,10 +532,11 @@ footer {
     align-self: end;
     grid-column: 5 / span 4;
     grid-row: 1 / span 2;
+    margin-top: 50px;
   }
   .footerContactContainer {
-    justify-self: right;
-    grid-column: 5 / span 3;
+    justify-self: center;
+    grid-column: 6 / span 2;
     grid-row: 3 / span 2;
     grid-template-columns: 20% 80%;
     row-gap: 16px;
@@ -581,7 +582,7 @@ footer {
     width: 20vw; //
     margin-block: 0;
     justify-self: left;
-    margin-top: 80px;
+    margin-top: 100px;
   }
 
   .footerDecorativeLine {
