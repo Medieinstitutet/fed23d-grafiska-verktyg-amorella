@@ -610,7 +610,7 @@ function htmlVersionThree() {
   homeSection.innerHTML = `
     <article class="homeHeadline">
       <h3>
-        Join us on a journey<br> of indulgence and happiness, one scoop at a time!
+        Join us on a journey<br> of indulgence and happiness, one bubble at a time!
       </h3>
       <img
           class="chewingGum1"
@@ -669,6 +669,56 @@ function htmlVersionThree() {
       />
       <img
           class="chewingGum20"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum3 x1"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum4 x2"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum5 x3"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum6 x4"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum7 x5"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum16 x6"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum17 x7"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum18 x8"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum19 x9"
+          src="assets/icons/chewing-gum.svg"
+          alt="chewing gum bubble"
+      />
+      <img
+          class="chewingGum20 x10"
           src="assets/icons/chewing-gum.svg"
           alt="chewing gum bubble"
       />
