@@ -91,14 +91,15 @@ section.homeSection {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    max-width: 680px;
+    width: 75vw;
     margin: auto;
     position: relative;
 
     h3 {
-      font-size: 3.7rem;
-      width: 60vw;
+      font-size: 4.2rem;
+      width: 80vw;
       right: 4rem;
+      top: -6rem;
       padding: 300px 25px 0 40px;
       position: relative;
       line-height: 65px;
@@ -114,7 +115,8 @@ section.homeSection {
     .chewingGum16,
     .chewingGum17,
     .chewingGum18,
-    .chewingGum19 {
+    .chewingGum19,
+    .chewingGum20 {
       z-index: 1;
       position: absolute;
     }
@@ -122,71 +124,77 @@ section.homeSection {
     .chewingGum1 {
       width: 75.71px;
       height: 62.23px;
-      top: 285px;
-      left: 8px;
+      top: 168px;
+      left: -40px;
     }
 
     .chewingGum2 {
       width: 44.16px;
       height: 36.46px;
-      top: -190px;
-      left: 35px;
+      top: -410px;
+      left: -5px;
       z-index: 0;
     }
 
     .chewingGum3 {
       width: 44.16px;
       height: 36.46px;
-      top: 268px;
+      top: 160px;
       left: 160px;
     }
     .chewingGum4 {
       width: 53.29px;
       height: 44px;
-      top: 385px;
-      left: 97px;
+      top: 365px;
+      left: -50px;
     }
     .chewingGum5 {
-      width: 51px;
-      height: 42px;
-      top: 397px;
-      left: 255px;
+      width: 70px;
+      height: 52px;
+      top: 370px;
+      left: 430px;
     }
     .chewingGum6 {
-      width: 34px;
-      height: 28px;
-      top: 440px;
-      left: 163px;
+      width: 55px;
+      height: 40px;
+      top: 310px;
+      left: 290px;
     }
     .chewingGum7 {
-      width: 62px;
-      height: 51px;
-      top: 490px;
-      left: 100px;
+      width: 50px;
+      height: 41px;
+      top: 480px;
+      left: 170px;
     }
     .chewingGum16 {
-      width: 62px;
-      height: 51px;
-      top: 500px;
-      left: 110px;
+      width: 102px;
+      height: 71px;
+      top: 385px;
+      left: 600px;
     }
     .chewingGum17 {
       width: 62px;
       height: 51px;
-      top: 510px;
-      left: 120px;
+      top: 340px;
+      left: 650px;
     }
     .chewingGum18 {
-      width: 62px;
-      height: 51px;
-      top: 520px;
-      left: 130px;
+      width: 68px;
+      height: 54px;
+      top: 300px;
+      left: 820px;
     }
     .chewingGum19 {
-      width: 62px;
+      width: 72px;
       height: 51px;
-      top: 530px;
-      left: 140px;
+      top: 220px;
+      left: 660px;
+    }
+    .chewingGum20 {
+      width: 42px;
+      height: 31px;
+      top: 170px;
+      left: 650px;
     }
   }
 
@@ -194,8 +202,8 @@ section.homeSection {
     margin: 0;
     background-color: unset;
     border: unset;
-    top: -10rem;
-    left: 20 rem;
+    top: -16rem;
+    left: 6rem;
 
     .newHeaderWrapper {
       transform: rotate(-15.64deg);
@@ -206,7 +214,7 @@ section.homeSection {
         left: 24px;
         -webkit-text-stroke-width: 3px;
         letter-spacing: -1px;
-        top: 90px;
+        top: 100px;
         left: 85px;
         font-size: 2.62rem;
       }
@@ -257,21 +265,30 @@ section.homeSection {
       z-index: 1;
     }
     .chewingGum10 {
-      height: 36.46px;
-      width: 44.16px;
+      height: 45px;
+      width: 52px;
       top: 111px;
       left: 85px;
       position: absolute;
       z-index: 0;
     }
     .chewingGum9 {
-      height: 119.6px;
+      height: 100px;
       width: 145.1px;
-      top: 160px;
-      left: 71px;
+      top: 180px;
+      left: 75px;
       position: absolute;
       z-index: 0;
     }
+    .chewingGum8 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 140px;
+      left: 65px;
+      position: absolute;
+      z-index: 1;
+    }
+
     // .chewingGum8 {
     //   height: 62.23px;
     //   width: 75.71px;
@@ -357,7 +374,7 @@ section.flavourSection {
       left: 24px;
       -webkit-text-stroke-width: 3px;
       letter-spacing: -1px;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin: 0;
       left: -30px;
       top: -45px;
