@@ -1,3 +1,59 @@
+# About the project
+
+Vi har följt en design vi fått från ett annat team - Amorella. Vårt mål var att implementera designen för mobile, tablet och desktop på 8 arbetsdagar med chans att fråga om vägledning under tiden. Vi har använt oss av följande tekniker för uppbyggnaden av sidan.
+
+Tech stack:
+- HTML 5
+- CSS 3
+- Sass
+- JavaScript
+- GSAP
+- Prettier
+- Grid/flexbox
+
+### Animationer
+Animationerna på sidan har gjorts med Green Sock och CSS 3.
+
+Samtliga skärmstorlekar:
+- Länkarna i menyn blir understrukna inifrån och ut när man kommer till den sektionen på sidan.
+- De små ikonerna på glasskorten åker upp och ned.
+  
+Mobile:
+- En hamburgerikon som animeras till ett "X" när en drop-down meny öppnas.
+- "NEW" på det första glasskortet på home-sektionen har en konstant pulserande effekt.
+
+Tablet/desktop:
+- "NEW" på home-sektionen har en konstant pulserande effekt.
+- "NEW" på ett tredje glasskort ändrar färg med en en pulserande effekt.
+
+Desktop:
+- Bubblor bubblar upp från botten till toppen av sidan.
+
+Design team Amorella
+@CarolineVarsaga
+@JariPii
+@Zileena6
+@RalfiSlask
+
+Developer team
+@LilithSWE
+@DiemBang
+@MustafaaMehdi
+@VictoriaLundberg
+
+### Screenshots
+
+https://medieinstitutet.github.io/fed23d-grafiska-verktyg-amorella/
+
+Mobile 375px
+![mobile](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/7275f9cd-8469-4676-97d5-4cfdba677870)
+
+Tablet 744px
+![tablet](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/739e9766-070d-490f-81ca-fd7129b28381)
+
+Desktop 1440px
+![desktop](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/781014aa-f86c-4ff2-8035-694f6fda2d6e)
+
 # About the design
 
 Ledord: <br>
@@ -41,42 +97,3 @@ Knapparna är runda, som mycket annat på vår sida. I hoverläge blir de gula m
 ### Menyn
 
 Här har vi kollat runt och tagit inspiration från andra glassföretags hemsidor. I mobilversionen blir den en hamburgermeny.
-
-# In English
-
-### About Amorella
-
-Welcome to our whimsical world of frozen delights, where every scoop tells a story of softness, playfulness, harmony, and serenity with a touch of excitement.
-
-### The Page
-
-We've crafted a simple yet lively site where something magical unfolds at every click. Breathing life into our page, you'll find:
-
-- A twinkling star backdrop behind our newest ice cream creation's name
-- Floating "bubbles"
-- A gentle white wave (mobile view)
-- "Ice cream pools" in our About section
-- A "moon icon" hovering above the footer, reminiscent a scoop of ice cream
-- Product images that zoom in as you hover over them
-- The little "fruit icon" gets a smooth animation effect on hover
-
-Just like ice cream, our design boasts soft edges and rounded corners, ensuring a smooth and delightful experience with no sharp edges.
-
-### Typography
-
-We chose Modak as our font for its playful, bubbly nature, perfectly suited for "our" latest flavor, "Bubblegum Bliss." To balance this exuberance, we complement it with Fira Sans – readable, simple, and playful, with rounded edges that harmonize with the rest of our elements.
-
-### Colors
-
-Pink embodies both playfulness and vibrancy, a perfect match for a joyful ice cream company. We also associate it with Bubblegum, adding a delightful connection.
-
-Initially considering mint green to contrast the pink, we shifted to yellow for accessibility reasons. Yellow provides a serene and harmonious contrast without compromising accessibility for color-blind users.
-
-### Buttons
-
-Our buttons mirror the roundness found throughout our site, adding to the overall playful aesthetic.
-In hover state, it gets a yellow background and a dark border and text.
-
-### Menu
-
-Drawing inspiration from other ice cream companies' websites, our menu is intuitive and user-friendly. In mobile view, it transforms into a classic hamburger menu, ensuring seamless navigation on all devices.
