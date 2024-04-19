@@ -1,6 +1,10 @@
 @import "./_color.scss";
 @import "./_font.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: auto;
   width: 100%;

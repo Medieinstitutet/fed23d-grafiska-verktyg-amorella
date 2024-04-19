@@ -204,7 +204,7 @@ function htmlVersionOne() {
   const homeSection = document.getElementById("homeSection");
   const aboutSection = document.getElementById("aboutSection");
   const flavourSection = document.getElementById("flavourSection");
-  const moonBgImg = document.getElementById("reviewCircleEffect")
+  const moonBgImg = document.getElementById("reviewCircleEffect");
 
   homeSection.innerHTML = `
     <img
@@ -375,13 +375,13 @@ function htmlVersionOne() {
     </p>
   </article>
   `;
-  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-mobile.svg")
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-mobile.svg");
 }
 function htmlVersionTwo() {
   const homeSection = document.getElementById("homeSection");
   const aboutSection = document.getElementById("aboutSection");
   const flavourSection = document.getElementById("flavourSection");
-  const moonBgImg = document.getElementById("reviewCircleEffect")
+  const moonBgImg = document.getElementById("reviewCircleEffect");
 
   homeSection.innerHTML = `
     <article class="homeHeadline">
@@ -554,9 +554,7 @@ function htmlVersionTwo() {
         />
       </figure>
       <p class="newIcecreamArticleTxt">
-        Each scoop whispers tales 
-of creamy bliss and 
-nutty perfection!
+Dive into a swirl of joy with Amorella's newest delight: Bubblegum Bliss!
       </p>
     </article>
 
@@ -606,11 +604,11 @@ nutty perfection!
       </p>
     </article>
   `;
-  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-tablet.svg")
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-tablet.svg");
 }
 function htmlVersionThree() {
   const homeSection = document.getElementById("homeSection");
-  const moonBgImg = document.getElementById("reviewCircleEffect")
+  const moonBgImg = document.getElementById("reviewCircleEffect");
 
   homeSection.innerHTML = `
     <article class="homeHeadline">
@@ -767,5 +765,5 @@ function htmlVersionThree() {
       />
     </article>
   `;
-  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-desktop.svg")
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-desktop.svg");
 }
