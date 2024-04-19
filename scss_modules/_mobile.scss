@@ -557,6 +557,7 @@ section.about {
 
 /* cookies pop-up */
 dialog.cookieDialog {
+  margin: 0;
   z-index: 900;
   display: flex;
   flex-direction: column;
