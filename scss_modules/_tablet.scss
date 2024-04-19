@@ -15,12 +15,13 @@ header {
   .offScreenMenu {
     top: 0;
     position: absolute;
-    width: 40vw;
+    width: 60vw;
     height: 5rem;
     margin: 0;
     border: none;
     box-shadow: none;
     right: 0.5em;
+    align-items: end;
   }
   .offScreenMenu ul {
     display: flex;
