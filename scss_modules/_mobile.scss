@@ -378,7 +378,6 @@ section.about {
 }
 /* flavour */
 .flavourSection {
-  min-height: 100vh;
   h5 {
     line-height: 40px;
   }
@@ -498,8 +497,8 @@ section.about {
 }
 /* customer reviews */
 .customerReview {
-  padding-top: 150px;
   position: relative;
+  margin-top: 50px;
   .customerReviewHeading,
   .reviewSlogan {
     text-align: center;
@@ -515,7 +514,7 @@ section.about {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 210px;
     margin-bottom: 50px;
   }
   .reviewContainer {

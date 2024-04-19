@@ -65,7 +65,7 @@ section.homeSection {
     max-width: 680px;
     margin: auto;
     position: relative;
-
+    left: -7%;
     h3 {
       font-size: 2.62rem;
       // padding-top: 300px;
@@ -229,9 +229,11 @@ section.about {
   background-size: cover;
   height: 1300px;
   width: 100%;
-  position: static;
+  position: relative;
+  top: -115px;
   justify-content: center;
   padding-bottom: 80px;
+  z-index: 0;
   div.aboutImgContainer {
     display: flex;
     justify-content: center;
@@ -377,7 +379,8 @@ section.about {
 /* customer reviews */
 .customerReview {
   width: 100vw;
-  height: 1350px;
+  height: 1150px;
+  margin-top: 200px;
   .reviewContainer,
   .reviewContainerRight {
     position: absolute;
@@ -388,15 +391,15 @@ section.about {
   }
   :nth-child(3) {
     right: 10%;
-    top: 440px;
+    top: 290px;
   }
   :nth-child(4) {
-    left: 15%;
-    top: 630px;
+    left: 20%;
+    top: 490px;
   }
   .reviewSlogan {
     position: absolute;
-    top: 1100px;
+    top: 920px;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 2.8px;
@@ -405,7 +408,7 @@ section.about {
     margin-right: 2%;
   }
   .reviewCircleEffect {
-    top: 900px;
+    top: 700px;
   }
 }
 /* cookies pop-up */

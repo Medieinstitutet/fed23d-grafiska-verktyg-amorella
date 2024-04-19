@@ -204,6 +204,7 @@ function htmlVersionOne() {
   const homeSection = document.getElementById("homeSection");
   const aboutSection = document.getElementById("aboutSection");
   const flavourSection = document.getElementById("flavourSection");
+  const moonBgImg = document.getElementById("reviewCircleEffect")
 
   homeSection.innerHTML = `
     <img
@@ -374,11 +375,13 @@ function htmlVersionOne() {
     </p>
   </article>
   `;
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-mobile.svg")
 }
 function htmlVersionTwo() {
   const homeSection = document.getElementById("homeSection");
   const aboutSection = document.getElementById("aboutSection");
   const flavourSection = document.getElementById("flavourSection");
+  const moonBgImg = document.getElementById("reviewCircleEffect")
 
   homeSection.innerHTML = `
     <article class="homeHeadline">
@@ -603,9 +606,11 @@ nutty perfection!
       </p>
     </article>
   `;
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-tablet.svg")
 }
 function htmlVersionThree() {
   const homeSection = document.getElementById("homeSection");
+  const moonBgImg = document.getElementById("reviewCircleEffect")
 
   homeSection.innerHTML = `
     <article class="homeHeadline">
@@ -762,4 +767,5 @@ function htmlVersionThree() {
       />
     </article>
   `;
+  moonBgImg.setAttribute("src", "./assets/icons/circle-effect-desktop.svg")
 }

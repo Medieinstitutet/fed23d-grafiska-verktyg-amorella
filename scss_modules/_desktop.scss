@@ -80,7 +80,7 @@ header {
 section.homeSection {
   background-image: url("assets/images/Landing.webp");
   width: 100vw;
-  height: 100vh;
+  height: 1126px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 93% center;
@@ -94,7 +94,7 @@ section.homeSection {
     width: 75vw;
     margin: auto;
     position: relative;
-
+    top: 100px;
     h3 {
       font-size: 4.2rem;
       width: 80vw;
@@ -202,7 +202,7 @@ section.homeSection {
     margin: 0;
     background-color: unset;
     border: unset;
-    top: -16rem;
+    top: -10rem;
     left: 6rem;
 
     .newHeaderWrapper {
@@ -554,14 +554,15 @@ section.about {
   align-items: center;
   justify-content: space-around;
   background-image: url("assets/images/middle/middle_large.webp");
-  margin-top: 50px;
   margin-bottom: 50px;
-  position: static;
+  position: relative;
+  top: -60px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 20px;
   margin-top: 0px;
   height: 650px;
+  z-index: 0;
 
   div.aboutImgContainer {
     display: flex;
@@ -701,7 +702,8 @@ section.flavourSection {
 }
 /* customer reviews */
 .customerReview {
-  height: 1030px;
+  height: 850px;
+  margin-top: 150px;
   .customerReviewHeading,
   .reviewSlogan {
     font-size: 56px;
@@ -725,16 +727,16 @@ section.flavourSection {
     left: 11%;
   }
   :nth-child(3) {
-    right: 57%;
-    top: 50%;
+    left: 20%;
+    top: 42%;
   }
   :nth-child(4) {
-    left: 9%;
-    top: 70%;
+    left: 11%;
+    top: 66%;
   }
   .reviewSlogan {
     position: absolute;
-    top: 750px;
+    top: 600px;
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 2.8px;
@@ -743,7 +745,7 @@ section.flavourSection {
     margin-right: 0;
   }
   .reviewCircleEffect {
-    top: 420px;
+    top: 230px;
   }
 }
 
