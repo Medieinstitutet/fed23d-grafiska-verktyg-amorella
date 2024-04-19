@@ -45,13 +45,16 @@ Developer team
 
 https://medieinstitutet.github.io/fed23d-grafiska-verktyg-amorella/
 
-Mobile 375px
+#### Mobile 375px
+
 ![mobile](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/7275f9cd-8469-4676-97d5-4cfdba677870)
 
-Tablet 744px
+#### Tablet 744px
+
 ![tablet](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/739e9766-070d-490f-81ca-fd7129b28381)
 
-Desktop 1440px
+#### Desktop 1440px
+
 ![desktop](https://github.com/Medieinstitutet/fed23d-grafiska-verktyg-amorella/assets/96536114/781014aa-f86c-4ff2-8035-694f6fda2d6e)
 
 # About the design
