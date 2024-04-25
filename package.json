@@ -1,0 +1,17 @@
+{
+  "name": "fed23d-grafiska-verktyg-amorella",
+  "version": "1.0.0",
+  "description": "Ledord: <br> - Mjuk - Lekfull - Harmoni - Lugn  - Händelserik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "3.2.5"
+  }
+}

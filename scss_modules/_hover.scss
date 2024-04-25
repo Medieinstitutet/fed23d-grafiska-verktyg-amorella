@@ -1,0 +1,22 @@
+/* buttons */
+button:hover {
+  background-color: $yellowColor !important;
+  border: 1px solid $hoverColor !important;
+  color: $hoverColor !important;
+}
+button.cookieHeaderCloseBtn:hover {
+  background-color: $primaryColor !important;
+  border: none !important;
+  svg {
+    path {
+      fill: $yellowColor !important;
+    }
+  }
+}
+/* links */
+a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: $hoverColor !important;
+}
+/* images */
+/* svg */

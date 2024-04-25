@@ -1,0 +1,14 @@
+@import "./scss_modules/_normalize.scss";
+@import "./scss_modules/_color.scss";
+@import "./scss_modules/_font.scss";
+@import "./scss_modules/mobile";
+
+@media (hover: hover) {
+  @import "./scss_modules/_hover.scss";
+}
+@media only screen and (max-width: 1024px) and (min-width: 641px) {
+  @import "./scss_modules/_tablet";
+}
+@media only screen and (min-width: 1025px) {
+  @import "./scss_modules/_desktop";
+}

@@ -1,0 +1,79 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 108px;
+  line-height: 100px;
+  letter-spacing: 5.4px;
+}
+
+h2 {
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: 3.6px;
+}
+
+h3 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2.8px;
+}
+
+h4 {
+  font-size: 42px;
+  letter-spacing: 2.1px;
+}
+
+h5 {
+  font-size: 32px;
+  letter-spacing: 1.6px;
+}
+
+h6 {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+/* Regular text size below */
+p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+/* Four different sizes used in design: XL = 24px, L = 20px, M = 18px, S = 16px. Change manually when needed. */
+/* Add class to elements when a change of thickness is requiered */
+
+.textWeightMedium {
+  font-weight: 500;
+}
+.textWeightBold {
+  font-weight: 700;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:visited {
+  color: black;
+}

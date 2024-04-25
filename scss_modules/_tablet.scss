@@ -1,0 +1,537 @@
+@import "./_color.scss";
+@import "./_font.scss";
+
+body {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 25px;
+  main {
+    grid-column: 1 / span 8;
+  }
+}
+
+/* header */
+
+header {
+  .offScreenMenu {
+    top: 0;
+    position: absolute;
+    width: 60vw;
+    height: 5rem;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    right: 0.5em;
+    align-items: end;
+  }
+  .offScreenMenu ul {
+    display: flex;
+  }
+  .offScreenMenu li {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+  }
+  ul li::after {
+    content: "";
+    border: 1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+  ul .menuPartTwo li:last-child::after {
+    border: 0px;
+  }
+  nav {
+    display: none;
+  }
+}
+
+/* home */
+section.homeSection {
+  background-image: url("assets/images/Landing.webp");
+  width: 100%;
+  height: 1037px;
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  margin-top: 74px;
+
+  .homeHeadline {
+    color: $primaryColor;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    // font-size: 42px;
+    max-width: 680px;
+    margin: auto;
+    position: relative;
+    left: -2%;
+    h3 {
+      font-size: 2.62rem;
+      // padding-top: 300px;
+      padding: 300px 25px 0 40px;
+      position: relative;
+      line-height: 40px;
+      z-index: 2;
+      // max-width: 650px;
+    }
+
+    .chewingGum1,
+    .chewingGum3,
+    .chewingGum4,
+    .chewingGum5,
+    .chewingGum6,
+    .chewingGum7 {
+      z-index: 1;
+      position: absolute;
+    }
+
+    .chewingGum1 {
+      width: 75.71px;
+      height: 62.23px;
+      top: 285px;
+      left: 8px;
+    }
+
+    .chewingGum2 {
+      width: 44.16px;
+      height: 36.46px;
+      top: -190px;
+      left: 35px;
+      z-index: 0;
+    }
+
+    .chewingGum3 {
+      width: 44.16px;
+      height: 36.46px;
+      top: 268px;
+      left: 160px;
+    }
+    .chewingGum4 {
+      width: 53.29px;
+      height: 44px;
+      top: 385px;
+      left: 97px;
+    }
+    .chewingGum5 {
+      width: 51px;
+      height: 42px;
+      top: 397px;
+      left: 255px;
+    }
+    .chewingGum6 {
+      width: 34px;
+      height: 28px;
+      top: 440px;
+      left: 163px;
+    }
+    .chewingGum7 {
+      width: 62px;
+      height: 51px;
+      top: 490px;
+      left: 100px;
+    }
+  }
+
+  .newIcecreamArticle {
+    margin: 0;
+    background-color: unset;
+    border: unset;
+
+    .newHeaderWrapper {
+      transform: rotate(-15.64deg);
+      z-index: 2;
+      position: relative;
+
+      .newIcecreamArticleHeader {
+        left: 24px;
+        -webkit-text-stroke-width: 3px;
+        letter-spacing: -1px;
+        top: 90px;
+        left: 85px;
+        font-size: 2.62rem;
+      }
+
+      .homeHeader {
+        color: $tertiaryColor;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        letter-spacing: -1px;
+        padding: 0;
+        padding-top: 15px;
+        top: 120px;
+        left: 220px;
+        font-size: 2rem;
+        text-align: left;
+      }
+    }
+
+    .homeStarBg {
+      z-index: 0;
+      transform: rotate(38.2deg);
+      width: 331.38px;
+      height: 295.59px;
+      left: 30px;
+      top: 20px;
+    }
+
+    .newIcecreamBtn {
+      top: 185px;
+      left: 115px;
+      position: absolute;
+      z-index: 2;
+    }
+    .chewingGum12 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 161px;
+      left: 275px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum11 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 171px;
+      left: 305px;
+      position: absolute;
+      z-index: 1;
+    }
+    .chewingGum10 {
+      height: 36.46px;
+      width: 44.16px;
+      top: 111px;
+      left: 85px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum9 {
+      height: 119.6px;
+      width: 145.1px;
+      top: 160px;
+      left: 71px;
+      position: absolute;
+      z-index: 0;
+    }
+    .chewingGum8 {
+      height: 62.23px;
+      width: 75.71px;
+      top: 130px;
+      left: 65px;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
+/* about */
+section.about {
+  margin-top: 0px;
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  position: relative;
+  top: -115px;
+  justify-content: center;
+  padding-bottom: 80px;
+  z-index: 0;
+  div.aboutImgContainer {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-bottom: 50px;
+    img {
+      position: static;
+      width: 360px;
+      height: 360px;
+    }
+  }
+  .aboutSplats {
+    position: relative;
+    width: 100%;
+    align-self: center;
+    article {
+      position: absolute;
+      width: 411px;
+      top: 50px;
+      color: white;
+      h3 {
+        margin-bottom: 20px;
+      }
+    }
+    .aboutImg2 {
+      right: 150px;
+      position: absolute;
+      bottom: -20px;
+    }
+    .aboutImg3 {
+      position: absolute;
+      bottom: 0;
+      left: 28%;
+    }
+  }
+}
+/* flavour */
+
+.flavourSection {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+
+  gap: 40px 0;
+  .flavourHeading {
+    font-size: 2.62rem;
+    grid-column: 1 / span 8;
+    grid-row: 1 / span 1;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .newIcecreamArticle {
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 3;
+
+    .newIcecreamArticleHeader {
+      position: absolute;
+      left: 24px;
+      -webkit-text-stroke-width: 3px;
+      letter-spacing: -1px;
+      font-size: 2rem;
+      margin: 0;
+      left: -30px;
+      top: -45px;
+      color: $yellowColor;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $primaryColor;
+      text-transform: uppercase;
+      animation: colorAnimation 1s ease-in-out infinite alternate;
+      transform: skewX(-5deg);
+      z-index: 2;
+    }
+
+    @keyframes colorAnimation {
+      0% {
+        -webkit-text-stroke-color: $primaryColor;
+        color: $yellowColor;
+      }
+      100% {
+        -webkit-text-stroke-color: $yellowColor;
+        color: $primaryColor;
+      }
+    }
+
+    .chewingGum13 {
+      width: 75.71px;
+      height: 62.23px;
+      left: -40px;
+      top: -20px;
+    }
+
+    .chewingGum14 {
+      width: 44.16px;
+      height: 36.46px;
+      left: -39px;
+      top: 20px;
+      z-index: 0;
+      animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
+    }
+
+    .chewingGum15 {
+      width: 44.16px;
+      height: 36.46px;
+      right: 84px;
+      top: -45px;
+      z-index: 0;
+      animation: floatAnimation 3s ease-in-out infinite alternate-reverse;
+    }
+
+    .newIcecreamImgContainer {
+      .newIcecreamImg {
+        height: 330px;
+        width: 330px;
+        object-fit: cover;
+        padding-right: 70px;
+      }
+    }
+  }
+
+  .newIcecreamArticle:hover .newIcecreamHeader {
+    color: whitesmoke;
+    text-shadow: 0 0 20px $primaryColor;
+    font-size: 2.2rem;
+  }
+  .blueberryArticle {
+    margin: 0;
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 2;
+    margin-top: 150px;
+    justify-self: center;
+  }
+  .pistachioArticle {
+    margin: 0;
+    grid-column: 5 / span 3;
+    grid-row: 3 / span 2;
+    margin-top: 150px;
+    margin-left: 70px;
+    justify-self: center;
+  }
+}
+/* customer reviews */
+.customerReview {
+  width: 100vw;
+  height: 1150px;
+  margin-top: 200px;
+  .reviewContainer,
+  .reviewContainerRight {
+    position: absolute;
+    width: 300px;
+  }
+  :nth-child(2) {
+    left: 20%;
+  }
+  :nth-child(3) {
+    right: 10%;
+    top: 290px;
+  }
+  :nth-child(4) {
+    left: 20%;
+    top: 490px;
+  }
+  .reviewSlogan {
+    position: absolute;
+    top: 920px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2.8px;
+    max-width: 700px;
+    margin-left: 8%;
+    margin-right: 2%;
+  }
+  .reviewCircleEffect {
+    top: 700px;
+  }
+}
+/* cookies pop-up */
+dialog.cookieDialog {
+  margin: 0;
+  .cookieHeader {
+    margin-bottom: 15px;
+  }
+  .cookieBody {
+    p {
+      margin: 0;
+      text-align: center;
+    }
+    .cookieBodyBtnContainer {
+      flex-direction: row;
+      height: fit-content;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      justify-content: space-between;
+    }
+  }
+  .cookieFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+}
+/* footer */
+footer {
+  grid-column: 1 / 9;
+  background-image: url(assets/images/footer/footer_tablet.webp);
+  padding-inline: 20px;
+  row-gap: 5px;
+
+  .footerAmorellaLogo,
+  .footerContactText,
+  .footerContactContainer,
+  .footerSubscriptionContainer,
+  .footerDecorativeLine,
+  .footerLanguageSelector {
+    justify-self: normal;
+    grid-column: 1 / span 2;
+  }
+  .footerAmorellaLogo {
+    width: 125px;
+    padding-top: 40px;
+  }
+  .footerContactText {
+    padding-top: 25px;
+  }
+  .footerContactContainer {
+    grid-row: 3 / span 2;
+    grid-template-columns: 20% 80%;
+    row-gap: 16px;
+    align-items: normal;
+    margin-bottom: 0;
+    margin-top: 20px;
+    .footerPhoneSvg,
+    .footerEmailSvg,
+    .footerLocationSvg {
+      justify-self: normal;
+    }
+    .footerContactPhone {
+      width: 130px;
+    }
+    .footerContactLocation {
+      width: 111px;
+    }
+  }
+
+  .footerSocialsContainer {
+    justify-self: normal;
+    grid-column: 7 / span 2;
+    grid-row: 2 / span 2;
+    .footerFacebookImg,
+    .footerTwitterImg,
+    .footerInstagramImg {
+      margin-left: 0;
+      padding-top: 0;
+    }
+    .footerSocialsText {
+      justify-self: left;
+      padding-top: 25px;
+      padding-bottom: 0;
+      padding-bottom: 0;
+      grid-column: span 3;
+      font-size: 20px;
+    }
+  }
+
+  .footerSubscriptionContainer {
+    grid-column: 5 / span 4; //
+    grid-row: 4; //
+    width: 42vw; //
+    margin-block: 0;
+  }
+
+  .footerDecorativeLine {
+    margin-top: 50px;
+  }
+
+  .footerCookiePolicy,
+  .footerCopyright {
+    justify-self: center;
+    grid-column: 4 / span 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerLanguageSelector {
+    grid-row: 6 / span 2;
+    align-self: center;
+  }
+
+  .footerCookiePolicy {
+    padding-top: 16px;
+    grid-row: 6;
+  }
+  .footerCopyright {
+    grid-row: 7;
+    padding-bottom: 20px;
+  }
+}
+/* contact */
